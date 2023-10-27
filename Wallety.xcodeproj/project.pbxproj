@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C774539E2AEBEE2C0095EF4B /* LockScreen-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C774539D2AEBEE2C0095EF4B /* LockScreen-1.png */; };
 		C7E512122AEB1A4800140B1E /* WalletyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E512112AEB1A4800140B1E /* WalletyApp.swift */; };
 		C7E512142AEB1A4800140B1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E512132AEB1A4800140B1E /* ContentView.swift */; };
 		C7E512162AEB1A4D00140B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E512152AEB1A4D00140B1E /* Assets.xcassets */; };
 		C7E512192AEB1A4D00140B1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E512182AEB1A4D00140B1E /* Preview Assets.xcassets */; };
 		C7E512222AEB2F8300140B1E /* ChangeBalance.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E512212AEB2F8300140B1E /* ChangeBalance.png */; };
-		C7E5122B2AEB2FAE00140B1E /* LockScreen-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E512232AEB2FAD00140B1E /* LockScreen-1.png */; };
 		C7E5122C2AEB2FAE00140B1E /* LockScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E512242AEB2FAD00140B1E /* LockScreen.png */; };
 		C7E5122D2AEB2FAE00140B1E /* SettingsScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E512252AEB2FAD00140B1E /* SettingsScreen.png */; };
 		C7E5122E2AEB2FAE00140B1E /* LockScreen-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E512262AEB2FAD00140B1E /* LockScreen-2.png */; };
@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C774539D2AEBEE2C0095EF4B /* LockScreen-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockScreen-1.png"; sourceTree = "<group>"; };
 		C7E5120E2AEB1A4800140B1E /* Wallety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E512112AEB1A4800140B1E /* WalletyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletyApp.swift; sourceTree = "<group>"; };
 		C7E512132AEB1A4800140B1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		C7E512182AEB1A4D00140B1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C7E5121A2AEB1A4D00140B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7E512212AEB2F8300140B1E /* ChangeBalance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChangeBalance.png; sourceTree = "<group>"; };
-		C7E512232AEB2FAD00140B1E /* LockScreen-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockScreen-1.png"; sourceTree = "<group>"; };
 		C7E512242AEB2FAD00140B1E /* LockScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LockScreen.png; sourceTree = "<group>"; };
 		C7E512252AEB2FAD00140B1E /* SettingsScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsScreen.png; sourceTree = "<group>"; };
 		C7E512262AEB2FAD00140B1E /* LockScreen-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockScreen-2.png"; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 				C7E512282AEB2FAD00140B1E /* CategoriesScreen.png */,
 				C7E512272AEB2FAD00140B1E /* DiagramScreen.png */,
 				C7E5122A2AEB2FAE00140B1E /* HomeScreen-1.png */,
+				C774539D2AEBEE2C0095EF4B /* LockScreen-1.png */,
 				C7E512292AEB2FAE00140B1E /* HomeScreen.png */,
-				C7E512232AEB2FAD00140B1E /* LockScreen-1.png */,
 				C7E512262AEB2FAD00140B1E /* LockScreen-2.png */,
 				C7E512242AEB2FAD00140B1E /* LockScreen.png */,
 				C7E512252AEB2FAD00140B1E /* SettingsScreen.png */,
@@ -168,9 +168,9 @@
 				C7E512222AEB2F8300140B1E /* ChangeBalance.png in Resources */,
 				C7E5122D2AEB2FAE00140B1E /* SettingsScreen.png in Resources */,
 				C7E5122C2AEB2FAE00140B1E /* LockScreen.png in Resources */,
-				C7E5122B2AEB2FAE00140B1E /* LockScreen-1.png in Resources */,
 				C7E512162AEB1A4D00140B1E /* Assets.xcassets in Resources */,
 				C7E512322AEB2FAE00140B1E /* HomeScreen-1.png in Resources */,
+				C774539E2AEBEE2C0095EF4B /* LockScreen-1.png in Resources */,
 				C7E5122E2AEB2FAE00140B1E /* LockScreen-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
