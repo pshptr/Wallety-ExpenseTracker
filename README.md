@@ -14,6 +14,28 @@ Realm - это система управления объектной базой
 ### 2.2 Интерфейс пользователя
 У пользователя будет возможность вручную добавлять карты на которых будет отображаться её текущий баланс, также будет возможность вручную записывать траты и заработки и тем самым менять баланс каждой карты. Пользователь будет выбирать дату когда он потратил или заработал определённую сумму и категорию траты. Пользователю будет доступна статистика трат по выбранной категории за выбранный период времени(день, неделя, месяц, год). В программе будет 2 цветовые темы, светлая и тёмная. Регистрация аккаунта будет производится с помощью Google почты, без возможности зарегестрироваться через другую почту. Все расходы и заработки можно будет записывать исключительно
 
+Categories Screen
+![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/art/CategoriesScreen.png)
+
+
+## Light Mode 
+CategoriesScreen | ChangeBalance | DiagramScreen | HomeScreen1
+--- | --- | --- |--- 
+![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/art/CategoriesScreen.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/art/ChangeBalance.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/art/DiagramScreen.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/art/HomeScreen-1.png) |
+
+<br />
+
+HomeScreen | LockScreen1 | LockScreen2 | LockScreen
+--- | --- | --- |---
+![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/art/HomeScreen.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/art/LockScreen-1.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/art/LockScreen-2.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/art/LockScreen.png) |
+
+<br />
+
+SettingsScreen |
+--- |
+![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/art/SettingsScreen.png) |
+
+
 ### 2.3 Характеристики пользователей
 Возрастное ограничение у приложения будет 4+ лет. Так как нет необходимости делать более строгие ограничения, ведь в приложении нет привязки к банковским картам и в нём можно будет записывать как и официальные расходы, заработки пользователям с официальным трудоустройством, так и пользователи младшего возраста могут записывать свои карманные расходы. Таким образом приложение "Wallety" подходит для совершенно разных категорий пользователей, как и обладающих технической грамотностью так и нет. Простой и интуитивно понятный интерфейс не требует от пользователя определённого уровня образования и опыта пользования сторонними приложениями из подобной категории.
 ### 2.4 Предположения и зависимости
