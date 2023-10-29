@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C774539E2AEBEE2C0095EF4B /* LockScreen-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C774539D2AEBEE2C0095EF4B /* LockScreen-1.png */; };
+		C78DD45C2AEEC4CB00DE58B8 /* WalletyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78DD45B2AEEC4CB00DE58B8 /* WalletyUITests.swift */; };
+		C78DD46A2AEEC4EB00DE58B8 /* WalletyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78DD4692AEEC4EB00DE58B8 /* WalletyTests.swift */; };
 		C7E512122AEB1A4800140B1E /* WalletyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E512112AEB1A4800140B1E /* WalletyApp.swift */; };
 		C7E512142AEB1A4800140B1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E512132AEB1A4800140B1E /* ContentView.swift */; };
 		C7E512162AEB1A4D00140B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E512152AEB1A4D00140B1E /* Assets.xcassets */; };
@@ -22,8 +24,31 @@
 		C7E512322AEB2FAE00140B1E /* HomeScreen-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E5122A2AEB2FAE00140B1E /* HomeScreen-1.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C78DD45E2AEEC4CB00DE58B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E512062AEB1A4700140B1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E5120D2AEB1A4800140B1E;
+			remoteInfo = Wallety;
+		};
+		C78DD46C2AEEC4EB00DE58B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E512062AEB1A4700140B1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E5120D2AEB1A4800140B1E;
+			remoteInfo = Wallety;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		C774539D2AEBEE2C0095EF4B /* LockScreen-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockScreen-1.png"; sourceTree = "<group>"; };
+		C78DD4592AEEC4CA00DE58B8 /* WalletyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78DD45B2AEEC4CB00DE58B8 /* WalletyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletyUITests.swift; sourceTree = "<group>"; };
+		C78DD45D2AEEC4CB00DE58B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78DD4672AEEC4EB00DE58B8 /* WalletyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78DD4692AEEC4EB00DE58B8 /* WalletyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletyTests.swift; sourceTree = "<group>"; };
+		C78DD46B2AEEC4EB00DE58B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7E5120E2AEB1A4800140B1E /* Wallety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E512112AEB1A4800140B1E /* WalletyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletyApp.swift; sourceTree = "<group>"; };
 		C7E512132AEB1A4800140B1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +66,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C78DD4562AEEC4CA00DE58B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78DD4642AEEC4EB00DE58B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7E5120B2AEB1A4800140B1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,11 +90,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C78DD45A2AEEC4CB00DE58B8 /* WalletyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C78DD45B2AEEC4CB00DE58B8 /* WalletyUITests.swift */,
+				C78DD45D2AEEC4CB00DE58B8 /* Info.plist */,
+			);
+			path = WalletyUITests;
+			sourceTree = "<group>";
+		};
+		C78DD4682AEEC4EB00DE58B8 /* WalletyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C78DD4692AEEC4EB00DE58B8 /* WalletyTests.swift */,
+				C78DD46B2AEEC4EB00DE58B8 /* Info.plist */,
+			);
+			path = WalletyTests;
+			sourceTree = "<group>";
+		};
+		C78DD4712AEEC53500DE58B8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		C78DD4722AEEC55C00DE58B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C78DD4792AEEC61000DE58B8 /* MainTab */,
+				C78DD4782AEEC60000DE58B8 /* Home */,
+				C78DD4772AEEC5F900DE58B8 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C78DD4732AEEC58100DE58B8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		C78DD4742AEEC5AD00DE58B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C78DD4752AEEC5B400DE58B8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C78DD4762AEEC5C300DE58B8 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		C78DD4772AEEC5F900DE58B8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C78DD4782AEEC60000DE58B8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C78DD4792AEEC61000DE58B8 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
 		C7E512052AEB1A4700140B1E = {
 			isa = PBXGroup;
 			children = (
 				C7E512202AEB2F4700140B1E /* art */,
 				C7E512102AEB1A4800140B1E /* Wallety */,
+				C78DD45A2AEEC4CB00DE58B8 /* WalletyUITests */,
+				C78DD4682AEEC4EB00DE58B8 /* WalletyTests */,
 				C7E5120F2AEB1A4800140B1E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				C7E5120E2AEB1A4800140B1E /* Wallety.app */,
+				C78DD4592AEEC4CA00DE58B8 /* WalletyUITests.xctest */,
+				C78DD4672AEEC4EB00DE58B8 /* WalletyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +198,12 @@
 		C7E512102AEB1A4800140B1E /* Wallety */ = {
 			isa = PBXGroup;
 			children = (
+				C78DD4762AEEC5C300DE58B8 /* UICommon */,
+				C78DD4752AEEC5B400DE58B8 /* Common */,
+				C78DD4742AEEC5AD00DE58B8 /* Model */,
+				C78DD4732AEEC58100DE58B8 /* ViewModel */,
+				C78DD4722AEEC55C00DE58B8 /* View */,
+				C78DD4712AEEC53500DE58B8 /* Font */,
 				C7E512112AEB1A4800140B1E /* WalletyApp.swift */,
 				C7E512132AEB1A4800140B1E /* ContentView.swift */,
 				C7E512152AEB1A4D00140B1E /* Assets.xcassets */,
@@ -107,6 +240,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C78DD4582AEEC4CA00DE58B8 /* WalletyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78DD4622AEEC4CC00DE58B8 /* Build configuration list for PBXNativeTarget "WalletyUITests" */;
+			buildPhases = (
+				C78DD4552AEEC4CA00DE58B8 /* Sources */,
+				C78DD4562AEEC4CA00DE58B8 /* Frameworks */,
+				C78DD4572AEEC4CA00DE58B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78DD45F2AEEC4CB00DE58B8 /* PBXTargetDependency */,
+			);
+			name = WalletyUITests;
+			productName = WalletyUITests;
+			productReference = C78DD4592AEEC4CA00DE58B8 /* WalletyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C78DD4662AEEC4EB00DE58B8 /* WalletyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78DD46E2AEEC4EB00DE58B8 /* Build configuration list for PBXNativeTarget "WalletyTests" */;
+			buildPhases = (
+				C78DD4632AEEC4EB00DE58B8 /* Sources */,
+				C78DD4642AEEC4EB00DE58B8 /* Frameworks */,
+				C78DD4652AEEC4EB00DE58B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78DD46D2AEEC4EB00DE58B8 /* PBXTargetDependency */,
+			);
+			name = WalletyTests;
+			productName = WalletyTests;
+			productReference = C78DD4672AEEC4EB00DE58B8 /* WalletyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C7E5120D2AEB1A4800140B1E /* Wallety */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7E5121D2AEB1A4D00140B1E /* Build configuration list for PBXNativeTarget "Wallety" */;
@@ -133,6 +302,14 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					C78DD4582AEEC4CA00DE58B8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C7E5120D2AEB1A4800140B1E;
+					};
+					C78DD4662AEEC4EB00DE58B8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C7E5120D2AEB1A4800140B1E;
+					};
 					C7E5120D2AEB1A4800140B1E = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -152,11 +329,27 @@
 			projectRoot = "";
 			targets = (
 				C7E5120D2AEB1A4800140B1E /* Wallety */,
+				C78DD4582AEEC4CA00DE58B8 /* WalletyUITests */,
+				C78DD4662AEEC4EB00DE58B8 /* WalletyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C78DD4572AEEC4CA00DE58B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78DD4652AEEC4EB00DE58B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7E5120C2AEB1A4800140B1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,6 +371,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C78DD4552AEEC4CA00DE58B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78DD45C2AEEC4CB00DE58B8 /* WalletyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78DD4632AEEC4EB00DE58B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78DD46A2AEEC4EB00DE58B8 /* WalletyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7E5120A2AEB1A4800140B1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,7 +398,98 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C78DD45F2AEEC4CB00DE58B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E5120D2AEB1A4800140B1E /* Wallety */;
+			targetProxy = C78DD45E2AEEC4CB00DE58B8 /* PBXContainerItemProxy */;
+		};
+		C78DD46D2AEEC4EB00DE58B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E5120D2AEB1A4800140B1E /* Wallety */;
+			targetProxy = C78DD46C2AEEC4EB00DE58B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		C78DD4602AEEC4CC00DE58B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TL9P273R5U;
+				INFOPLIST_FILE = WalletyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PiotrSharai.WalletyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wallety;
+			};
+			name = Debug;
+		};
+		C78DD4612AEEC4CC00DE58B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TL9P273R5U;
+				INFOPLIST_FILE = WalletyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PiotrSharai.WalletyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wallety;
+			};
+			name = Release;
+		};
+		C78DD46F2AEEC4EB00DE58B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TL9P273R5U;
+				INFOPLIST_FILE = WalletyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PiotrSharai.WalletyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallety.app/Wallety";
+			};
+			name = Debug;
+		};
+		C78DD4702AEEC4EB00DE58B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TL9P273R5U;
+				INFOPLIST_FILE = WalletyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PiotrSharai.WalletyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallety.app/Wallety";
+			};
+			name = Release;
+		};
 		C7E5121B2AEB1A4D00140B1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -353,6 +653,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C78DD4622AEEC4CC00DE58B8 /* Build configuration list for PBXNativeTarget "WalletyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78DD4602AEEC4CC00DE58B8 /* Debug */,
+				C78DD4612AEEC4CC00DE58B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78DD46E2AEEC4EB00DE58B8 /* Build configuration list for PBXNativeTarget "WalletyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78DD46F2AEEC4EB00DE58B8 /* Debug */,
+				C78DD4702AEEC4EB00DE58B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C7E512092AEB1A4700140B1E /* Build configuration list for PBXProject "Wallety" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
