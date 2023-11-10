@@ -28,6 +28,7 @@
 		C735F16B2AFEDB4C00450948 /* incomeActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1672AFEDB4C00450948 /* incomeActivity.png */; };
 		C735F16D2AFEDB6800450948 /* components.puml in Resources */ = {isa = PBXBuildFile; fileRef = C735F16C2AFEDB6800450948 /* components.puml */; };
 		C735F16F2AFEDB9700450948 /* components.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F16E2AFEDB9700450948 /* components.png */; };
+		C735F1712AFEDCB100450948 /* prprpr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C735F1702AFEDCB100450948 /* prprpr.swift */; };
 		C774539E2AEBEE2C0095EF4B /* LockScreen-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C774539D2AEBEE2C0095EF4B /* LockScreen-1.png */; };
 		C78DD45C2AEEC4CB00DE58B8 /* WalletyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78DD45B2AEEC4CB00DE58B8 /* WalletyUITests.swift */; };
 		C78DD46A2AEEC4EB00DE58B8 /* WalletyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78DD4692AEEC4EB00DE58B8 /* WalletyTests.swift */; };
@@ -84,6 +85,7 @@
 		C735F1672AFEDB4C00450948 /* incomeActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = incomeActivity.png; path = "../../../../../../../Downloads/diagrams copy 2/activs png/incomeActivity.png"; sourceTree = "<group>"; };
 		C735F16C2AFEDB6800450948 /* components.puml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = components.puml; path = "../../../../../../Downloads/diagrams copy 2/plantuml/components.puml"; sourceTree = "<group>"; };
 		C735F16E2AFEDB9700450948 /* components.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = components.png; path = "../../../../../../../Downloads/diagrams copy 2/components.png"; sourceTree = "<group>"; };
+		C735F1702AFEDCB100450948 /* prprpr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prprpr.swift; sourceTree = "<group>"; };
 		C774539D2AEBEE2C0095EF4B /* LockScreen-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockScreen-1.png"; sourceTree = "<group>"; };
 		C78DD4592AEEC4CA00DE58B8 /* WalletyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78DD45B2AEEC4CB00DE58B8 /* WalletyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletyUITests.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 				C735F15F2AFEDB4000450948 /* incomeActivity.puml */,
 				C735F15D2AFEDB4000450948 /* statisticsActivity.puml */,
 				C7CCDEE12AFE81D100D25AE0 /* assets */,
+				C735F1702AFEDCB100450948 /* prprpr.swift */,
 			);
 			path = sequence;
 			sourceTree = "<group>";
@@ -582,6 +585,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7E512142AEB1A4800140B1E /* ContentView.swift in Sources */,
+				C735F1712AFEDCB100450948 /* prprpr.swift in Sources */,
 				C7E512122AEB1A4800140B1E /* WalletyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
