@@ -1,0 +1,64 @@
+@startuml
+
+actor User
+boundary iOSApp {
+  control MainScreenController
+  control CardController
+  control CategoryController
+  control TransactionController
+  control StatisticsController
+  control SettingsController
+}
+entity System
+
+User --> (Login)
+User --> (Skip Welcome Screen)
+User --> (View Home Screen)
+User --> (View Categories)
+User --> (View Statistics)
+User --> (Switch Card)
+User --> (Add Transaction)
+User --> (View Settings)
+User --> (Switch Theme)
+User --> (Open GitHub)
+User --> (View Policy)
+User --> (Get Help)
+
+(User, System) --> (Generate Report)
+
+(Login) --> (Authenticate User)
+(Login) --> (Display Error Message)
+
+(Skip Welcome Screen) --> (Show Home Screen)
+
+(View Home Screen) --> (Display Cards)
+(View Home Screen) --> (Navigate to Categories)
+(View Home Screen) --> (Navigate to Statistics)
+(View Home Screen) --> (Navigate to Settings)
+(View Home Screen) --> (Switch Card)
+
+(Navigate to Categories) --> (Display Categories)
+
+(View Categories) --> (Display Category Details)
+
+(Navigate to Statistics) --> (Select Period)
+(Select Period) --> (Generate Report)
+(Generate Report) --> (Display Statistics)
+
+(Navigate to Settings) --> (View Settings)
+(View Settings) --> (Switch Theme)
+(View Settings) --> (Open GitHub)
+(View Settings) --> (View Policy)
+(View Settings) --> (Get Help)
+
+(Switch Theme) --> (Apply Theme)
+(Open GitHub) --> (Redirect to GitHub)
+(View Policy) --> (Display Policy)
+(Get Help) --> (Provide Assistance)
+
+(Add Transaction) --> (Select Transaction Type)
+(Select Transaction Type) --> (Enter Transaction Details)
+(Enter Transaction Details) --> (Confirm Transaction)
+(Confirm Transaction) --> (Display Transaction Result)
+
+@enduml

@@ -1,0 +1,45 @@
+@startuml
+
+[*] --> WelcomeScreen
+WelcomeScreen --> MainScreen: User taps "Continue"
+
+state MainScreen {
+  [*] --> Home
+  Home --> Categories: User taps "Categories"
+  Home --> Statistics: User taps "Statistics"
+  Home --> Settings: User taps "Settings"
+  Categories --> Home: User navigates back
+  Statistics --> Home: User navigates back
+  Settings --> Home: User navigates back
+  Home --> CardDetails: User taps on a card
+  CardDetails --> Home: User goes back
+  Home --> AddTransaction: User taps "Add Transaction"
+  AddTransaction --> Home: User cancels transaction
+  AddTransaction --> Home: User completes transaction
+  Home --> SwitchCard: User taps "Switch Card"
+  SwitchCard --> Home: User switches card
+}
+
+state Home {
+  [*] --> ShowCards
+  ShowCards --> Home: User goes back
+}
+
+state AddTransaction {
+  [*] --> SelectType
+  SelectType --> EnterDetails: User selects transaction type
+  EnterDetails --> ConfirmTransaction: User enters transaction details
+  ConfirmTransaction --> ShowResult: User confirms transaction
+  ShowResult --> Home: User goes back
+}
+
+state SwitchCard {
+  [*] --> SelectCard
+  SelectCard --> Home: User goes back
+  SelectCard --> ShowBalance: User selects a card
+  ShowBalance --> Home: User goes back
+}
+
+WelcomeScreen --> MainScreen: User taps "Skip"
+
+@enduml

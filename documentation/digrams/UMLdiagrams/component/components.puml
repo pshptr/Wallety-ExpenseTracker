@@ -1,0 +1,39 @@
+@startuml
+
+package "iOS App" {
+  [App]
+  [WelcomeScreen]
+  [MainScreen]
+  [Card]
+  [Category]
+  [Icon]
+  [Expense]
+  [Income]
+  [Statistics]
+  [Period]
+  [Report]
+  [Settings]
+}
+
+cloud "External Services" {
+  [GitHub]
+  [Policy]
+  [Help]
+}
+
+[App] --> [WelcomeScreen]
+[App] --> [MainScreen]
+[MainScreen] --> [Card]
+[Card] --> [Category]
+[Category] --> [Icon]
+[Card] --> [Expense]
+[Card] --> [Income]
+[MainScreen] --> [Statistics]
+[Statistics] --> [Period]
+[Statistics] --> [Report]
+[MainScreen] --> [Settings]
+[Settings] --> [GitHub]
+[Settings] --> [Policy]
+[Settings] --> [Help]
+
+@enduml
