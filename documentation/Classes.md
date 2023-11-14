@@ -1,3 +1,3 @@
 # Диаграмма классов
 
-![Диаграмма классов](assets/classDiagram.png)
+![Диаграмма классов](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/digrams/assets/classDiagram.png)
