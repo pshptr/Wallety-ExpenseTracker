@@ -1,6 +1,6 @@
 # Диаграмма вариантов использования
 
-![Диаграмма вариантов использования](assets/usecase.png)
+![Диаграмма вариантов использования](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/digrams/assets/usecase.png)
 
 ---
 

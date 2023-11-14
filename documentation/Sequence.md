@@ -10,17 +10,17 @@
 
 ### 1. Добавление карты<a name="1"></a>
 
-![Добавление карты](assets/addCardSequence.png)
+![Добавление карты](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/digrams/assets/addCardSequence.png)
 
 ### 2. Запись расхода<a name="2"></a>
 
-![Запись расхода](assets/addExpenseSequence.png)
+![Запись расхода](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/digrams/assets/addExpenseSequence.png)
 
 ### 3. Запись дохода<a name="3"></a>
 
-![Запись дохода](assets/addIncomeSequence.png)
+![Запись дохода](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/digrams/assets/addIncomeSequence.png)
 
 ### 4. Просмотр статистики<a name="4"></a>
 
-![Просмотр статистики](assets/statisticsSequence.png)
+![Просмотр статистики](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/digrams/assets/statisticsSequence.png)
 
