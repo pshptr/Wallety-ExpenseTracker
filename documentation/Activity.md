@@ -13,12 +13,12 @@
 
 ### 2. Запись расхода<a name="2"></a>
 
-![Запись расхода](diagrams/assets/addExpenseActivity.png)
+![Запись расхода]([diagrams/assets/addExpenseActivity.png](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/digrams/assets/expenseActivity.png))
 
 ### 3. Запись дохода<a name="3"></a>
 
-![Запись дохода](diagrams/assets/addIncomeActivity.png)
+![Запись дохода]([diagrams/assets/addIncomeActivity.png](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/digrams/assets/incomeActivity.png))
 
 ### 4. Просмотр статистики<a name="4"></a>
 
-![Просмотр статистики](diagrams/assets/statisticsActivity.png)
+![Просмотр статистики](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/digrams/assets/statisticsActivity.png)
