@@ -9,16 +9,16 @@
 
 ### 1. Добавление карты<a name="1"></a>
 
-![Добавление карты](assets/addCardActivity.png)
+![Добавление карты](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/digrams/assets/addCardActivity.png)
 
 ### 2. Запись расхода<a name="2"></a>
 
-![Запись расхода](assets/addExpenseActivity.png)
+![Запись расхода](diagrams/assets/addExpenseActivity.png)
 
 ### 3. Запись дохода<a name="3"></a>
 
-![Запись дохода](assets/addIncomeActivity.png)
+![Запись дохода](diagrams/assets/addIncomeActivity.png)
 
 ### 4. Просмотр статистики<a name="4"></a>
 
-![Просмотр статистики](assets/statisticsActivity.png)
+![Просмотр статистики](diagrams/assets/statisticsActivity.png)
