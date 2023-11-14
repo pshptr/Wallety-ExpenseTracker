@@ -10,7 +10,7 @@
 
 ### 1. Добавление карты<a name="1"></a>
 
-![Добавление карты](assets/cardState.png)
+![Добавление карты](documentation/diagrams/assets/cardState.png)
 
 ### 2. Запись расхода<a name="2"></a>
 
