@@ -1,3 +1,3 @@
 # Диаграмма компонентов
 
-![Диаграмма компонентов](assets/components.png)
+![Диаграмма компонентов](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/digrams/assets/components.png)
