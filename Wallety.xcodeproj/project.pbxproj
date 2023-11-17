@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C735F17A2AFEE13700450948 /* usecase.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1722AFEE13700450948 /* usecase.png */; };
-		C735F17B2AFEE13700450948 /* conditionDiagramm.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1732AFEE13700450948 /* conditionDiagramm.png */; };
-		C735F17C2AFEE13700450948 /* statisticsActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1742AFEE13700450948 /* statisticsActivity.png */; };
-		C735F17D2AFEE13700450948 /* components.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1752AFEE13700450948 /* components.png */; };
-		C735F17E2AFEE13700450948 /* addCardActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1762AFEE13700450948 /* addCardActivity.png */; };
-		C735F17F2AFEE13700450948 /* incomeActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1772AFEE13700450948 /* incomeActivity.png */; };
-		C735F1802AFEE13700450948 /* expenseActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1782AFEE13700450948 /* expenseActivity.png */; };
-		C735F1812AFEE13700450948 /* classDiagram.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1792AFEE13700450948 /* classDiagram.png */; };
-		C735F1832AFEE16300450948 /* useVariantsDiagram.puml in Resources */ = {isa = PBXBuildFile; fileRef = C735F1822AFEE16300450948 /* useVariantsDiagram.puml */; };
-		C735F1852AFEE16900450948 /* usecase.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1842AFEE16900450948 /* usecase.png */; };
-		C735F1872AFEE17200450948 /* conditionDiagram.puml in Resources */ = {isa = PBXBuildFile; fileRef = C735F1862AFEE17100450948 /* conditionDiagram.puml */; };
-		C735F1892AFEE17700450948 /* conditionDiagramm.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1882AFEE17700450948 /* conditionDiagramm.png */; };
-		C735F18E2AFEE18000450948 /* statisticsActivity.puml in Resources */ = {isa = PBXBuildFile; fileRef = C735F18A2AFEE18000450948 /* statisticsActivity.puml */; };
-		C735F18F2AFEE18000450948 /* expenseActivity.puml in Resources */ = {isa = PBXBuildFile; fileRef = C735F18B2AFEE18000450948 /* expenseActivity.puml */; };
-		C735F1902AFEE18000450948 /* addCardActivity.puml in Resources */ = {isa = PBXBuildFile; fileRef = C735F18C2AFEE18000450948 /* addCardActivity.puml */; };
-		C735F1912AFEE18000450948 /* incomeActivity.puml in Resources */ = {isa = PBXBuildFile; fileRef = C735F18D2AFEE18000450948 /* incomeActivity.puml */; };
-		C735F1972AFEE18D00450948 /* expenseActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1932AFEE18D00450948 /* expenseActivity.png */; };
-		C735F1982AFEE18D00450948 /* incomeActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1942AFEE18D00450948 /* incomeActivity.png */; };
-		C735F1992AFEE18D00450948 /* statisticsActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F1952AFEE18D00450948 /* statisticsActivity.png */; };
-		C735F19B2AFEE19500450948 /* adCardActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F19A2AFEE19500450948 /* adCardActivity.png */; };
-		C735F19D2AFEE1AD00450948 /* components.png in Resources */ = {isa = PBXBuildFile; fileRef = C735F19C2AFEE1AD00450948 /* components.png */; };
-		C735F19F2AFEE1CC00450948 /* components.puml in Resources */ = {isa = PBXBuildFile; fileRef = C735F19E2AFEE1CC00450948 /* components.puml */; };
 		C774539E2AEBEE2C0095EF4B /* LockScreen-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C774539D2AEBEE2C0095EF4B /* LockScreen-1.png */; };
 		C78DD45C2AEEC4CB00DE58B8 /* WalletyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78DD45B2AEEC4CB00DE58B8 /* WalletyUITests.swift */; };
 		C78DD46A2AEEC4EB00DE58B8 /* WalletyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78DD4692AEEC4EB00DE58B8 /* WalletyTests.swift */; };
+		C7B00C3B2B07ED8F0061542F /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C3A2B07ED8F0061542F /* WelcomeScreen.swift */; };
+		C7B00C3F2B07EE370061542F /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C3E2B07EE370061542F /* RegistrationScreen.swift */; };
+		C7B00C412B07F0C30061542F /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C402B07F0C20061542F /* MainScreen.swift */; };
+		C7B00C452B07F7420061542F /* BalooThambi2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B00C442B07F7420061542F /* BalooThambi2-Bold.ttf */; };
+		C7B00C4A2B07F7850061542F /* BalooThambi2-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B00C462B07F7850061542F /* BalooThambi2-Medium.ttf */; };
+		C7B00C4B2B07F7850061542F /* BalooThambi2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B00C472B07F7850061542F /* BalooThambi2-Regular.ttf */; };
+		C7B00C4C2B07F7850061542F /* BalooThambi2-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B00C482B07F7850061542F /* BalooThambi2-SemiBold.ttf */; };
+		C7B00C4D2B07F7850061542F /* BalooThambi2-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B00C492B07F7850061542F /* BalooThambi2-ExtraBold.ttf */; };
+		C7B00C4F2B07FA2D0061542F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C4E2B07FA2C0061542F /* HomeScreen.swift */; };
+		C7B00C512B07FA490061542F /* AddCardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C502B07FA490061542F /* AddCardScreen.swift */; };
+		C7B00C522B07FA490061542F /* AddCardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C502B07FA490061542F /* AddCardScreen.swift */; };
+		C7B00C532B07FA490061542F /* AddCardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C502B07FA490061542F /* AddCardScreen.swift */; };
+		C7B00C552B07FB3E0061542F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C542B07FB3E0061542F /* Card.swift */; };
+		C7B00C562B07FB3E0061542F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C542B07FB3E0061542F /* Card.swift */; };
+		C7B00C572B07FB3E0061542F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C542B07FB3E0061542F /* Card.swift */; };
+		C7B00C592B07FB630061542F /* ManageCardsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C582B07FB630061542F /* ManageCardsScreen.swift */; };
+		C7B00C5A2B07FB630061542F /* ManageCardsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C582B07FB630061542F /* ManageCardsScreen.swift */; };
+		C7B00C5B2B07FB630061542F /* ManageCardsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C582B07FB630061542F /* ManageCardsScreen.swift */; };
 		C7E512122AEB1A4800140B1E /* WalletyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E512112AEB1A4800140B1E /* WalletyApp.swift */; };
 		C7E512142AEB1A4800140B1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E512132AEB1A4800140B1E /* ContentView.swift */; };
 		C7E512162AEB1A4D00140B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E512152AEB1A4D00140B1E /* Assets.xcassets */; };
@@ -64,28 +60,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C735F1722AFEE13700450948 /* usecase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usecase.png; sourceTree = "<group>"; };
-		C735F1732AFEE13700450948 /* conditionDiagramm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conditionDiagramm.png; sourceTree = "<group>"; };
-		C735F1742AFEE13700450948 /* statisticsActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statisticsActivity.png; sourceTree = "<group>"; };
-		C735F1752AFEE13700450948 /* components.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = components.png; sourceTree = "<group>"; };
-		C735F1762AFEE13700450948 /* addCardActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addCardActivity.png; sourceTree = "<group>"; };
-		C735F1772AFEE13700450948 /* incomeActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incomeActivity.png; sourceTree = "<group>"; };
-		C735F1782AFEE13700450948 /* expenseActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = expenseActivity.png; sourceTree = "<group>"; };
-		C735F1792AFEE13700450948 /* classDiagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classDiagram.png; sourceTree = "<group>"; };
-		C735F1822AFEE16300450948 /* useVariantsDiagram.puml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = useVariantsDiagram.puml; sourceTree = "<group>"; };
-		C735F1842AFEE16900450948 /* usecase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usecase.png; sourceTree = "<group>"; };
-		C735F1862AFEE17100450948 /* conditionDiagram.puml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = conditionDiagram.puml; sourceTree = "<group>"; };
-		C735F1882AFEE17700450948 /* conditionDiagramm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conditionDiagramm.png; sourceTree = "<group>"; };
-		C735F18A2AFEE18000450948 /* statisticsActivity.puml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = statisticsActivity.puml; sourceTree = "<group>"; };
-		C735F18B2AFEE18000450948 /* expenseActivity.puml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = expenseActivity.puml; sourceTree = "<group>"; };
-		C735F18C2AFEE18000450948 /* addCardActivity.puml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = addCardActivity.puml; sourceTree = "<group>"; };
-		C735F18D2AFEE18000450948 /* incomeActivity.puml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = incomeActivity.puml; sourceTree = "<group>"; };
-		C735F1932AFEE18D00450948 /* expenseActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = expenseActivity.png; sourceTree = "<group>"; };
-		C735F1942AFEE18D00450948 /* incomeActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incomeActivity.png; sourceTree = "<group>"; };
-		C735F1952AFEE18D00450948 /* statisticsActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statisticsActivity.png; sourceTree = "<group>"; };
-		C735F19A2AFEE19500450948 /* adCardActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adCardActivity.png; sourceTree = "<group>"; };
-		C735F19C2AFEE1AD00450948 /* components.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = components.png; sourceTree = "<group>"; };
-		C735F19E2AFEE1CC00450948 /* components.puml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = components.puml; sourceTree = "<group>"; };
 		C774539D2AEBEE2C0095EF4B /* LockScreen-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockScreen-1.png"; sourceTree = "<group>"; };
 		C78DD4592AEEC4CA00DE58B8 /* WalletyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78DD45B2AEEC4CB00DE58B8 /* WalletyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletyUITests.swift; sourceTree = "<group>"; };
@@ -93,7 +67,18 @@
 		C78DD4672AEEC4EB00DE58B8 /* WalletyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78DD4692AEEC4EB00DE58B8 /* WalletyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletyTests.swift; sourceTree = "<group>"; };
 		C78DD46B2AEEC4EB00DE58B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7CCDED42AFE791400D25AE0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C7B00C3A2B07ED8F0061542F /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		C7B00C3E2B07EE370061542F /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
+		C7B00C402B07F0C20061542F /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		C7B00C442B07F7420061542F /* BalooThambi2-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooThambi2-Bold.ttf"; sourceTree = "<group>"; };
+		C7B00C462B07F7850061542F /* BalooThambi2-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooThambi2-Medium.ttf"; sourceTree = "<group>"; };
+		C7B00C472B07F7850061542F /* BalooThambi2-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooThambi2-Regular.ttf"; sourceTree = "<group>"; };
+		C7B00C482B07F7850061542F /* BalooThambi2-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooThambi2-SemiBold.ttf"; sourceTree = "<group>"; };
+		C7B00C492B07F7850061542F /* BalooThambi2-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooThambi2-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C7B00C4E2B07FA2C0061542F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		C7B00C502B07FA490061542F /* AddCardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardScreen.swift; sourceTree = "<group>"; };
+		C7B00C542B07FB3E0061542F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C7B00C582B07FB630061542F /* ManageCardsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCardsScreen.swift; sourceTree = "<group>"; };
 		C7E5120E2AEB1A4800140B1E /* Wallety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E512112AEB1A4800140B1E /* WalletyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletyApp.swift; sourceTree = "<group>"; };
 		C7E512132AEB1A4800140B1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +141,11 @@
 		C78DD4712AEEC53500DE58B8 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				C7B00C492B07F7850061542F /* BalooThambi2-ExtraBold.ttf */,
+				C7B00C462B07F7850061542F /* BalooThambi2-Medium.ttf */,
+				C7B00C472B07F7850061542F /* BalooThambi2-Regular.ttf */,
+				C7B00C482B07F7850061542F /* BalooThambi2-SemiBold.ttf */,
+				C7B00C442B07F7420061542F /* BalooThambi2-Bold.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -219,136 +209,9 @@
 			path = MainTab;
 			sourceTree = "<group>";
 		};
-		C7CCDECE2AFE63E100D25AE0 /* documentation */ = {
-			isa = PBXGroup;
-			children = (
-				C7CCDED32AFE78F100D25AE0 /* requirements */,
-				C7CCDED22AFE78E900D25AE0 /* digrams */,
-			);
-			path = documentation;
-			sourceTree = "<group>";
-		};
-		C7CCDED22AFE78E900D25AE0 /* digrams */ = {
-			isa = PBXGroup;
-			children = (
-				C7CCDED62AFE795300D25AE0 /* assets */,
-				C7CCDED52AFE794500D25AE0 /* UMLdiagrams */,
-			);
-			path = digrams;
-			sourceTree = "<group>";
-		};
-		C7CCDED32AFE78F100D25AE0 /* requirements */ = {
-			isa = PBXGroup;
-			children = (
-				C7CCDED42AFE791400D25AE0 /* README.md */,
-			);
-			path = requirements;
-			sourceTree = "<group>";
-		};
-		C7CCDED52AFE794500D25AE0 /* UMLdiagrams */ = {
-			isa = PBXGroup;
-			children = (
-				C7CCDEDB2AFE79D200D25AE0 /* usecase assets */,
-				C7CCDED92AFE79B300D25AE0 /* state */,
-				C7CCDED82AFE79AD00D25AE0 /* sequence */,
-				C7CCDED72AFE79A300D25AE0 /* component */,
-			);
-			path = UMLdiagrams;
-			sourceTree = "<group>";
-		};
-		C7CCDED62AFE795300D25AE0 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				C735F1762AFEE13700450948 /* addCardActivity.png */,
-				C735F1792AFEE13700450948 /* classDiagram.png */,
-				C735F1752AFEE13700450948 /* components.png */,
-				C735F1732AFEE13700450948 /* conditionDiagramm.png */,
-				C735F1782AFEE13700450948 /* expenseActivity.png */,
-				C735F1772AFEE13700450948 /* incomeActivity.png */,
-				C735F1742AFEE13700450948 /* statisticsActivity.png */,
-				C735F1722AFEE13700450948 /* usecase.png */,
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
-		C7CCDED72AFE79A300D25AE0 /* component */ = {
-			isa = PBXGroup;
-			children = (
-				C735F19E2AFEE1CC00450948 /* components.puml */,
-				C7CCDEDC2AFE79FD00D25AE0 /* assets */,
-			);
-			path = component;
-			sourceTree = "<group>";
-		};
-		C7CCDED82AFE79AD00D25AE0 /* sequence */ = {
-			isa = PBXGroup;
-			children = (
-				C735F18C2AFEE18000450948 /* addCardActivity.puml */,
-				C735F18B2AFEE18000450948 /* expenseActivity.puml */,
-				C735F18D2AFEE18000450948 /* incomeActivity.puml */,
-				C735F18A2AFEE18000450948 /* statisticsActivity.puml */,
-				C7CCDEE12AFE81D100D25AE0 /* assets */,
-			);
-			path = sequence;
-			sourceTree = "<group>";
-		};
-		C7CCDED92AFE79B300D25AE0 /* state */ = {
-			isa = PBXGroup;
-			children = (
-				C735F1862AFEE17100450948 /* conditionDiagram.puml */,
-				C7CCDF072AFE86CA00D25AE0 /* assets */,
-			);
-			path = state;
-			sourceTree = "<group>";
-		};
-		C7CCDEDB2AFE79D200D25AE0 /* usecase assets */ = {
-			isa = PBXGroup;
-			children = (
-				C735F1822AFEE16300450948 /* useVariantsDiagram.puml */,
-				C7CCDF042AFE867A00D25AE0 /* assets */,
-			);
-			path = "usecase assets";
-			sourceTree = "<group>";
-		};
-		C7CCDEDC2AFE79FD00D25AE0 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				C735F19C2AFEE1AD00450948 /* components.png */,
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
-		C7CCDEE12AFE81D100D25AE0 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				C735F19A2AFEE19500450948 /* adCardActivity.png */,
-				C735F1932AFEE18D00450948 /* expenseActivity.png */,
-				C735F1942AFEE18D00450948 /* incomeActivity.png */,
-				C735F1952AFEE18D00450948 /* statisticsActivity.png */,
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
-		C7CCDF042AFE867A00D25AE0 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				C735F1842AFEE16900450948 /* usecase.png */,
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
-		C7CCDF072AFE86CA00D25AE0 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				C735F1882AFEE17700450948 /* conditionDiagramm.png */,
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
 		C7E512052AEB1A4700140B1E = {
 			isa = PBXGroup;
 			children = (
-				C7CCDECE2AFE63E100D25AE0 /* documentation */,
 				C7E512202AEB2F4700140B1E /* art */,
 				C7E512102AEB1A4800140B1E /* Wallety */,
 				C78DD45A2AEEC4CB00DE58B8 /* WalletyUITests */,
@@ -381,6 +244,13 @@
 				C7E512152AEB1A4D00140B1E /* Assets.xcassets */,
 				C7E5121A2AEB1A4D00140B1E /* Info.plist */,
 				C7E512172AEB1A4D00140B1E /* Preview Content */,
+				C7B00C3A2B07ED8F0061542F /* WelcomeScreen.swift */,
+				C7B00C3E2B07EE370061542F /* RegistrationScreen.swift */,
+				C7B00C402B07F0C20061542F /* MainScreen.swift */,
+				C7B00C4E2B07FA2C0061542F /* HomeScreen.swift */,
+				C7B00C502B07FA490061542F /* AddCardScreen.swift */,
+				C7B00C542B07FB3E0061542F /* Card.swift */,
+				C7B00C582B07FB630061542F /* ManageCardsScreen.swift */,
 			);
 			path = Wallety;
 			sourceTree = "<group>";
@@ -527,38 +397,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7E512192AEB1A4D00140B1E /* Preview Assets.xcassets in Resources */,
-				C735F1852AFEE16900450948 /* usecase.png in Resources */,
-				C735F1972AFEE18D00450948 /* expenseActivity.png in Resources */,
-				C735F1832AFEE16300450948 /* useVariantsDiagram.puml in Resources */,
+				C7B00C452B07F7420061542F /* BalooThambi2-Bold.ttf in Resources */,
 				C7E512302AEB2FAE00140B1E /* CategoriesScreen.png in Resources */,
-				C735F17D2AFEE13700450948 /* components.png in Resources */,
-				C735F1912AFEE18000450948 /* incomeActivity.puml in Resources */,
-				C735F19F2AFEE1CC00450948 /* components.puml in Resources */,
-				C735F19D2AFEE1AD00450948 /* components.png in Resources */,
 				C7E512312AEB2FAE00140B1E /* HomeScreen.png in Resources */,
 				C7E5122F2AEB2FAE00140B1E /* DiagramScreen.png in Resources */,
-				C735F1812AFEE13700450948 /* classDiagram.png in Resources */,
+				C7B00C4B2B07F7850061542F /* BalooThambi2-Regular.ttf in Resources */,
 				C7E512222AEB2F8300140B1E /* ChangeBalance.png in Resources */,
-				C735F17E2AFEE13700450948 /* addCardActivity.png in Resources */,
-				C735F1892AFEE17700450948 /* conditionDiagramm.png in Resources */,
-				C735F18E2AFEE18000450948 /* statisticsActivity.puml in Resources */,
-				C735F1982AFEE18D00450948 /* incomeActivity.png in Resources */,
-				C735F17F2AFEE13700450948 /* incomeActivity.png in Resources */,
-				C735F19B2AFEE19500450948 /* adCardActivity.png in Resources */,
 				C7E5122D2AEB2FAE00140B1E /* SettingsScreen.png in Resources */,
-				C735F1902AFEE18000450948 /* addCardActivity.puml in Resources */,
+				C7B00C4C2B07F7850061542F /* BalooThambi2-SemiBold.ttf in Resources */,
 				C7E5122C2AEB2FAE00140B1E /* LockScreen.png in Resources */,
-				C735F18F2AFEE18000450948 /* expenseActivity.puml in Resources */,
-				C735F17A2AFEE13700450948 /* usecase.png in Resources */,
 				C7E512162AEB1A4D00140B1E /* Assets.xcassets in Resources */,
-				C735F1872AFEE17200450948 /* conditionDiagram.puml in Resources */,
-				C735F17C2AFEE13700450948 /* statisticsActivity.png in Resources */,
 				C7E512322AEB2FAE00140B1E /* HomeScreen-1.png in Resources */,
+				C7B00C4D2B07F7850061542F /* BalooThambi2-ExtraBold.ttf in Resources */,
 				C774539E2AEBEE2C0095EF4B /* LockScreen-1.png in Resources */,
 				C7E5122E2AEB2FAE00140B1E /* LockScreen-2.png in Resources */,
-				C735F1992AFEE18D00450948 /* statisticsActivity.png in Resources */,
-				C735F17B2AFEE13700450948 /* conditionDiagramm.png in Resources */,
-				C735F1802AFEE13700450948 /* expenseActivity.png in Resources */,
+				C7B00C4A2B07F7850061542F /* BalooThambi2-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,7 +422,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B00C5A2B07FB630061542F /* ManageCardsScreen.swift in Sources */,
 				C78DD45C2AEEC4CB00DE58B8 /* WalletyUITests.swift in Sources */,
+				C7B00C562B07FB3E0061542F /* Card.swift in Sources */,
+				C7B00C522B07FA490061542F /* AddCardScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,7 +433,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B00C5B2B07FB630061542F /* ManageCardsScreen.swift in Sources */,
 				C78DD46A2AEEC4EB00DE58B8 /* WalletyTests.swift in Sources */,
+				C7B00C572B07FB3E0061542F /* Card.swift in Sources */,
+				C7B00C532B07FA490061542F /* AddCardScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,8 +444,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B00C3B2B07ED8F0061542F /* WelcomeScreen.swift in Sources */,
+				C7B00C592B07FB630061542F /* ManageCardsScreen.swift in Sources */,
 				C7E512142AEB1A4800140B1E /* ContentView.swift in Sources */,
+				C7B00C4F2B07FA2D0061542F /* HomeScreen.swift in Sources */,
+				C7B00C512B07FA490061542F /* AddCardScreen.swift in Sources */,
+				C7B00C412B07F0C30061542F /* MainScreen.swift in Sources */,
+				C7B00C3F2B07EE370061542F /* RegistrationScreen.swift in Sources */,
 				C7E512122AEB1A4800140B1E /* WalletyApp.swift in Sources */,
+				C7B00C552B07FB3E0061542F /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
