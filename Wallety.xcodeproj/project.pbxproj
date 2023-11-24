@@ -7,39 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C774539E2AEBEE2C0095EF4B /* LockScreen-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C774539D2AEBEE2C0095EF4B /* LockScreen-1.png */; };
-		C78DD45C2AEEC4CB00DE58B8 /* WalletyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78DD45B2AEEC4CB00DE58B8 /* WalletyUITests.swift */; };
-		C78DD46A2AEEC4EB00DE58B8 /* WalletyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78DD4692AEEC4EB00DE58B8 /* WalletyTests.swift */; };
-		C7B00C3B2B07ED8F0061542F /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C3A2B07ED8F0061542F /* WelcomeScreen.swift */; };
-		C7B00C3F2B07EE370061542F /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C3E2B07EE370061542F /* RegistrationScreen.swift */; };
-		C7B00C412B07F0C30061542F /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C402B07F0C20061542F /* MainScreen.swift */; };
-		C7B00C452B07F7420061542F /* BalooThambi2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B00C442B07F7420061542F /* BalooThambi2-Bold.ttf */; };
-		C7B00C4A2B07F7850061542F /* BalooThambi2-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B00C462B07F7850061542F /* BalooThambi2-Medium.ttf */; };
-		C7B00C4B2B07F7850061542F /* BalooThambi2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B00C472B07F7850061542F /* BalooThambi2-Regular.ttf */; };
-		C7B00C4C2B07F7850061542F /* BalooThambi2-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B00C482B07F7850061542F /* BalooThambi2-SemiBold.ttf */; };
-		C7B00C4D2B07F7850061542F /* BalooThambi2-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B00C492B07F7850061542F /* BalooThambi2-ExtraBold.ttf */; };
-		C7B00C4F2B07FA2D0061542F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C4E2B07FA2C0061542F /* HomeScreen.swift */; };
-		C7B00C512B07FA490061542F /* AddCardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C502B07FA490061542F /* AddCardScreen.swift */; };
-		C7B00C522B07FA490061542F /* AddCardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C502B07FA490061542F /* AddCardScreen.swift */; };
-		C7B00C532B07FA490061542F /* AddCardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C502B07FA490061542F /* AddCardScreen.swift */; };
-		C7B00C552B07FB3E0061542F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C542B07FB3E0061542F /* Card.swift */; };
-		C7B00C562B07FB3E0061542F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C542B07FB3E0061542F /* Card.swift */; };
-		C7B00C572B07FB3E0061542F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C542B07FB3E0061542F /* Card.swift */; };
-		C7B00C592B07FB630061542F /* ManageCardsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C582B07FB630061542F /* ManageCardsScreen.swift */; };
-		C7B00C5A2B07FB630061542F /* ManageCardsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C582B07FB630061542F /* ManageCardsScreen.swift */; };
-		C7B00C5B2B07FB630061542F /* ManageCardsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B00C582B07FB630061542F /* ManageCardsScreen.swift */; };
-		C7E512122AEB1A4800140B1E /* WalletyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E512112AEB1A4800140B1E /* WalletyApp.swift */; };
-		C7E512142AEB1A4800140B1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E512132AEB1A4800140B1E /* ContentView.swift */; };
+		C797B7AF2B0D4B1E00AA8E1B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C797B7AB2B0D4B1E00AA8E1B /* Inter-Regular.ttf */; };
+		C797B7B02B0D4B1E00AA8E1B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C797B7AB2B0D4B1E00AA8E1B /* Inter-Regular.ttf */; };
+		C797B7B12B0D4B1E00AA8E1B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C797B7AB2B0D4B1E00AA8E1B /* Inter-Regular.ttf */; };
+		C797B7B22B0D4B1E00AA8E1B /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C797B7AC2B0D4B1E00AA8E1B /* Inter-SemiBold.ttf */; };
+		C797B7B32B0D4B1E00AA8E1B /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C797B7AC2B0D4B1E00AA8E1B /* Inter-SemiBold.ttf */; };
+		C797B7B42B0D4B1E00AA8E1B /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C797B7AC2B0D4B1E00AA8E1B /* Inter-SemiBold.ttf */; };
+		C797B7B52B0D4B1E00AA8E1B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C797B7AD2B0D4B1E00AA8E1B /* Inter-Medium.ttf */; };
+		C797B7B62B0D4B1E00AA8E1B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C797B7AD2B0D4B1E00AA8E1B /* Inter-Medium.ttf */; };
+		C797B7B72B0D4B1E00AA8E1B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C797B7AD2B0D4B1E00AA8E1B /* Inter-Medium.ttf */; };
+		C797B7B82B0D4B1E00AA8E1B /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C797B7AE2B0D4B1E00AA8E1B /* Inter-Bold.ttf */; };
+		C797B7B92B0D4B1E00AA8E1B /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C797B7AE2B0D4B1E00AA8E1B /* Inter-Bold.ttf */; };
+		C797B7BA2B0D4B1E00AA8E1B /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C797B7AE2B0D4B1E00AA8E1B /* Inter-Bold.ttf */; };
+		C797B7BF2B0D4B7900AA8E1B /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7BB2B0D4B7900AA8E1B /* SubscriptionModel.swift */; };
+		C797B7C02B0D4B7900AA8E1B /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7BB2B0D4B7900AA8E1B /* SubscriptionModel.swift */; };
+		C797B7C12B0D4B7900AA8E1B /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7BB2B0D4B7900AA8E1B /* SubscriptionModel.swift */; };
+		C797B7C22B0D4B7900AA8E1B /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7BC2B0D4B7900AA8E1B /* BudgetModel.swift */; };
+		C797B7C32B0D4B7900AA8E1B /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7BC2B0D4B7900AA8E1B /* BudgetModel.swift */; };
+		C797B7C42B0D4B7900AA8E1B /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7BC2B0D4B7900AA8E1B /* BudgetModel.swift */; };
+		C797B7C52B0D4B7900AA8E1B /* CreditCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7BD2B0D4B7900AA8E1B /* CreditCardModel.swift */; };
+		C797B7C62B0D4B7900AA8E1B /* CreditCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7BD2B0D4B7900AA8E1B /* CreditCardModel.swift */; };
+		C797B7C72B0D4B7900AA8E1B /* CreditCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7BD2B0D4B7900AA8E1B /* CreditCardModel.swift */; };
+		C797B7C82B0D4B7900AA8E1B /* ArcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7BE2B0D4B7900AA8E1B /* ArcModel.swift */; };
+		C797B7C92B0D4B7900AA8E1B /* ArcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7BE2B0D4B7900AA8E1B /* ArcModel.swift */; };
+		C797B7CA2B0D4B7900AA8E1B /* ArcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7BE2B0D4B7900AA8E1B /* ArcModel.swift */; };
+		C797B7CC2B0D4BF800AA8E1B /* InfiniteWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7CB2B0D4BF800AA8E1B /* InfiniteWeekView.swift */; };
+		C797B7CD2B0D4BF800AA8E1B /* InfiniteWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7CB2B0D4BF800AA8E1B /* InfiniteWeekView.swift */; };
+		C797B7CE2B0D4BF800AA8E1B /* InfiniteWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7CB2B0D4BF800AA8E1B /* InfiniteWeekView.swift */; };
+		C797B7D22B0D4C0300AA8E1B /* WeekHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7CF2B0D4C0200AA8E1B /* WeekHeaderView.swift */; };
+		C797B7D32B0D4C0300AA8E1B /* WeekHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7CF2B0D4C0200AA8E1B /* WeekHeaderView.swift */; };
+		C797B7D42B0D4C0300AA8E1B /* WeekHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7CF2B0D4C0200AA8E1B /* WeekHeaderView.swift */; };
+		C797B7D52B0D4C0300AA8E1B /* WeeksTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7D02B0D4C0200AA8E1B /* WeeksTabView.swift */; };
+		C797B7D62B0D4C0300AA8E1B /* WeeksTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7D02B0D4C0200AA8E1B /* WeeksTabView.swift */; };
+		C797B7D72B0D4C0300AA8E1B /* WeeksTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7D02B0D4C0200AA8E1B /* WeeksTabView.swift */; };
+		C797B7D82B0D4C0300AA8E1B /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7D12B0D4C0200AA8E1B /* WeekView.swift */; };
+		C797B7D92B0D4C0300AA8E1B /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7D12B0D4C0200AA8E1B /* WeekView.swift */; };
+		C797B7DA2B0D4C0300AA8E1B /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7D12B0D4C0200AA8E1B /* WeekView.swift */; };
+		C797B7DC2B0D4C1200AA8E1B /* CornerRadiusStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7DB2B0D4C1200AA8E1B /* CornerRadiusStyle.swift */; };
+		C797B7DD2B0D4C1200AA8E1B /* CornerRadiusStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7DB2B0D4C1200AA8E1B /* CornerRadiusStyle.swift */; };
+		C797B7DE2B0D4C1200AA8E1B /* CornerRadiusStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7DB2B0D4C1200AA8E1B /* CornerRadiusStyle.swift */; };
+		C797B7E02B0D4C1B00AA8E1B /* CornerRadiusShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7DF2B0D4C1B00AA8E1B /* CornerRadiusShape.swift */; };
+		C797B7E12B0D4C1B00AA8E1B /* CornerRadiusShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7DF2B0D4C1B00AA8E1B /* CornerRadiusShape.swift */; };
+		C797B7E22B0D4C1B00AA8E1B /* CornerRadiusShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7DF2B0D4C1B00AA8E1B /* CornerRadiusShape.swift */; };
+		C797B7E62B0D4C2300AA8E1B /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7E32B0D4C2300AA8E1B /* Date+Extension.swift */; };
+		C797B7E72B0D4C2300AA8E1B /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7E32B0D4C2300AA8E1B /* Date+Extension.swift */; };
+		C797B7E82B0D4C2300AA8E1B /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7E32B0D4C2300AA8E1B /* Date+Extension.swift */; };
+		C797B7E92B0D4C2300AA8E1B /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7E42B0D4C2300AA8E1B /* View+Extension.swift */; };
+		C797B7EA2B0D4C2300AA8E1B /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7E42B0D4C2300AA8E1B /* View+Extension.swift */; };
+		C797B7EB2B0D4C2300AA8E1B /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7E42B0D4C2300AA8E1B /* View+Extension.swift */; };
+		C797B7EC2B0D4C2300AA8E1B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7E52B0D4C2300AA8E1B /* Color+Extension.swift */; };
+		C797B7ED2B0D4C2300AA8E1B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7E52B0D4C2300AA8E1B /* Color+Extension.swift */; };
+		C797B7EE2B0D4C2300AA8E1B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7E52B0D4C2300AA8E1B /* Color+Extension.swift */; };
+		C797B7F02B0D4C3100AA8E1B /* TimeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7EF2B0D4C3100AA8E1B /* TimeDirection.swift */; };
+		C797B7F12B0D4C3100AA8E1B /* TimeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7EF2B0D4C3100AA8E1B /* TimeDirection.swift */; };
+		C797B7F22B0D4C3100AA8E1B /* TimeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7EF2B0D4C3100AA8E1B /* TimeDirection.swift */; };
+		C797B7F42B0D4C9D00AA8E1B /* UIStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7F32B0D4C9D00AA8E1B /* UIStateModel.swift */; };
+		C797B7F52B0D4C9D00AA8E1B /* UIStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7F32B0D4C9D00AA8E1B /* UIStateModel.swift */; };
+		C797B7F62B0D4C9D00AA8E1B /* UIStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7F32B0D4C9D00AA8E1B /* UIStateModel.swift */; };
+		C797B8062B0D4CC300AA8E1B /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7F72B0D4CC300AA8E1B /* PrimaryButton.swift */; };
+		C797B8072B0D4CC300AA8E1B /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7F72B0D4CC300AA8E1B /* PrimaryButton.swift */; };
+		C797B8082B0D4CC300AA8E1B /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7F72B0D4CC300AA8E1B /* PrimaryButton.swift */; };
+		C797B8092B0D4CC300AA8E1B /* BudgetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7F82B0D4CC300AA8E1B /* BudgetRow.swift */; };
+		C797B80A2B0D4CC300AA8E1B /* BudgetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7F82B0D4CC300AA8E1B /* BudgetRow.swift */; };
+		C797B80B2B0D4CC300AA8E1B /* BudgetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7F82B0D4CC300AA8E1B /* BudgetRow.swift */; };
+		C797B80C2B0D4CC300AA8E1B /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7F92B0D4CC300AA8E1B /* SubscriptionCell.swift */; };
+		C797B80D2B0D4CC300AA8E1B /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7F92B0D4CC300AA8E1B /* SubscriptionCell.swift */; };
+		C797B80E2B0D4CC300AA8E1B /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7F92B0D4CC300AA8E1B /* SubscriptionCell.swift */; };
+		C797B80F2B0D4CC300AA8E1B /* IconItemSwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FA2B0D4CC300AA8E1B /* IconItemSwitchRow.swift */; };
+		C797B8102B0D4CC300AA8E1B /* IconItemSwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FA2B0D4CC300AA8E1B /* IconItemSwitchRow.swift */; };
+		C797B8112B0D4CC300AA8E1B /* IconItemSwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FA2B0D4CC300AA8E1B /* IconItemSwitchRow.swift */; };
+		C797B8122B0D4CC300AA8E1B /* SegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FB2B0D4CC300AA8E1B /* SegmentButton.swift */; };
+		C797B8132B0D4CC300AA8E1B /* SegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FB2B0D4CC300AA8E1B /* SegmentButton.swift */; };
+		C797B8142B0D4CC300AA8E1B /* SegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FB2B0D4CC300AA8E1B /* SegmentButton.swift */; };
+		C797B8152B0D4CC300AA8E1B /* SubScriptionHomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FC2B0D4CC300AA8E1B /* SubScriptionHomeRow.swift */; };
+		C797B8162B0D4CC300AA8E1B /* SubScriptionHomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FC2B0D4CC300AA8E1B /* SubScriptionHomeRow.swift */; };
+		C797B8172B0D4CC300AA8E1B /* SubScriptionHomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FC2B0D4CC300AA8E1B /* SubScriptionHomeRow.swift */; };
+		C797B8182B0D4CC300AA8E1B /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FD2B0D4CC300AA8E1B /* UIExtension.swift */; };
+		C797B8192B0D4CC300AA8E1B /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FD2B0D4CC300AA8E1B /* UIExtension.swift */; };
+		C797B81A2B0D4CC400AA8E1B /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FD2B0D4CC300AA8E1B /* UIExtension.swift */; };
+		C797B81B2B0D4CC400AA8E1B /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FE2B0D4CC300AA8E1B /* CarouselView.swift */; };
+		C797B81C2B0D4CC400AA8E1B /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FE2B0D4CC300AA8E1B /* CarouselView.swift */; };
+		C797B81D2B0D4CC400AA8E1B /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FE2B0D4CC300AA8E1B /* CarouselView.swift */; };
+		C797B81E2B0D4CC400AA8E1B /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FF2B0D4CC300AA8E1B /* SecondaryButton.swift */; };
+		C797B81F2B0D4CC400AA8E1B /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FF2B0D4CC300AA8E1B /* SecondaryButton.swift */; };
+		C797B8202B0D4CC400AA8E1B /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B7FF2B0D4CC300AA8E1B /* SecondaryButton.swift */; };
+		C797B8212B0D4CC400AA8E1B /* StatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8002B0D4CC300AA8E1B /* StatusButton.swift */; };
+		C797B8222B0D4CC400AA8E1B /* StatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8002B0D4CC300AA8E1B /* StatusButton.swift */; };
+		C797B8232B0D4CC400AA8E1B /* StatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8002B0D4CC300AA8E1B /* StatusButton.swift */; };
+		C797B8242B0D4CC400AA8E1B /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8012B0D4CC300AA8E1B /* RoundTextField.swift */; };
+		C797B8252B0D4CC400AA8E1B /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8012B0D4CC300AA8E1B /* RoundTextField.swift */; };
+		C797B8262B0D4CC400AA8E1B /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8012B0D4CC300AA8E1B /* RoundTextField.swift */; };
+		C797B8272B0D4CC400AA8E1B /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8022B0D4CC300AA8E1B /* ArcShape.swift */; };
+		C797B8282B0D4CC400AA8E1B /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8022B0D4CC300AA8E1B /* ArcShape.swift */; };
+		C797B8292B0D4CC400AA8E1B /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8022B0D4CC300AA8E1B /* ArcShape.swift */; };
+		C797B82A2B0D4CC400AA8E1B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8032B0D4CC300AA8E1B /* ItemRow.swift */; };
+		C797B82B2B0D4CC400AA8E1B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8032B0D4CC300AA8E1B /* ItemRow.swift */; };
+		C797B82C2B0D4CC400AA8E1B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8032B0D4CC300AA8E1B /* ItemRow.swift */; };
+		C797B82D2B0D4CC400AA8E1B /* UpcomingBillRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8042B0D4CC300AA8E1B /* UpcomingBillRow.swift */; };
+		C797B82E2B0D4CC400AA8E1B /* UpcomingBillRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8042B0D4CC300AA8E1B /* UpcomingBillRow.swift */; };
+		C797B82F2B0D4CC400AA8E1B /* UpcomingBillRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8042B0D4CC300AA8E1B /* UpcomingBillRow.swift */; };
+		C797B8302B0D4CC400AA8E1B /* IconItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8052B0D4CC300AA8E1B /* IconItemRow.swift */; };
+		C797B8312B0D4CC400AA8E1B /* IconItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8052B0D4CC300AA8E1B /* IconItemRow.swift */; };
+		C797B8322B0D4CC400AA8E1B /* IconItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8052B0D4CC300AA8E1B /* IconItemRow.swift */; };
+		C797B83B2B0D4D8A00AA8E1B /* AddSubscruiptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B83A2B0D4D8A00AA8E1B /* AddSubscruiptionView.swift */; };
+		C797B83C2B0D4D8A00AA8E1B /* AddSubscruiptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B83A2B0D4D8A00AA8E1B /* AddSubscruiptionView.swift */; };
+		C797B83D2B0D4D8A00AA8E1B /* AddSubscruiptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B83A2B0D4D8A00AA8E1B /* AddSubscruiptionView.swift */; };
+		C797B83F2B0D4D8F00AA8E1B /* BudgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B83E2B0D4D8F00AA8E1B /* BudgetsView.swift */; };
+		C797B8402B0D4D8F00AA8E1B /* BudgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B83E2B0D4D8F00AA8E1B /* BudgetsView.swift */; };
+		C797B8412B0D4D8F00AA8E1B /* BudgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B83E2B0D4D8F00AA8E1B /* BudgetsView.swift */; };
+		C797B8432B0D4D9500AA8E1B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8422B0D4D9500AA8E1B /* CalendarView.swift */; };
+		C797B8442B0D4D9500AA8E1B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8422B0D4D9500AA8E1B /* CalendarView.swift */; };
+		C797B8452B0D4D9500AA8E1B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8422B0D4D9500AA8E1B /* CalendarView.swift */; };
+		C797B8472B0D4D9C00AA8E1B /* SubscriptionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8462B0D4D9C00AA8E1B /* SubscriptionInfoView.swift */; };
+		C797B8482B0D4D9C00AA8E1B /* SubscriptionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8462B0D4D9C00AA8E1B /* SubscriptionInfoView.swift */; };
+		C797B8492B0D4D9C00AA8E1B /* SubscriptionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8462B0D4D9C00AA8E1B /* SubscriptionInfoView.swift */; };
+		C797B84B2B0D4DA200AA8E1B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B84A2B0D4DA200AA8E1B /* SettingsView.swift */; };
+		C797B84C2B0D4DA200AA8E1B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B84A2B0D4DA200AA8E1B /* SettingsView.swift */; };
+		C797B84D2B0D4DA200AA8E1B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B84A2B0D4DA200AA8E1B /* SettingsView.swift */; };
+		C797B8502B0D4DB100AA8E1B /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B84F2B0D4DB100AA8E1B /* CardsView.swift */; };
+		C797B8512B0D4DB100AA8E1B /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B84F2B0D4DB100AA8E1B /* CardsView.swift */; };
+		C797B8522B0D4DB100AA8E1B /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B84F2B0D4DB100AA8E1B /* CardsView.swift */; };
+		C797B8542B0D4DB600AA8E1B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8532B0D4DB600AA8E1B /* MainTabView.swift */; };
+		C797B8552B0D4DB600AA8E1B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8532B0D4DB600AA8E1B /* MainTabView.swift */; };
+		C797B8562B0D4DB600AA8E1B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8532B0D4DB600AA8E1B /* MainTabView.swift */; };
+		C797B8582B0D4DBC00AA8E1B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8572B0D4DBC00AA8E1B /* HomeView.swift */; };
+		C797B8592B0D4DBC00AA8E1B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8572B0D4DBC00AA8E1B /* HomeView.swift */; };
+		C797B85A2B0D4DBC00AA8E1B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8572B0D4DBC00AA8E1B /* HomeView.swift */; };
+		C797B85F2B0D4DC100AA8E1B /* SocialSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B85B2B0D4DC100AA8E1B /* SocialSignupView.swift */; };
+		C797B8602B0D4DC100AA8E1B /* SocialSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B85B2B0D4DC100AA8E1B /* SocialSignupView.swift */; };
+		C797B8612B0D4DC100AA8E1B /* SocialSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B85B2B0D4DC100AA8E1B /* SocialSignupView.swift */; };
+		C797B8622B0D4DC100AA8E1B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B85C2B0D4DC100AA8E1B /* SignInView.swift */; };
+		C797B8632B0D4DC100AA8E1B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B85C2B0D4DC100AA8E1B /* SignInView.swift */; };
+		C797B8642B0D4DC100AA8E1B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B85C2B0D4DC100AA8E1B /* SignInView.swift */; };
+		C797B8652B0D4DC200AA8E1B /* WelcomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B85D2B0D4DC100AA8E1B /* WelcomView.swift */; };
+		C797B8662B0D4DC200AA8E1B /* WelcomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B85D2B0D4DC100AA8E1B /* WelcomView.swift */; };
+		C797B8672B0D4DC200AA8E1B /* WelcomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B85D2B0D4DC100AA8E1B /* WelcomView.swift */; };
+		C797B8682B0D4DC200AA8E1B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B85E2B0D4DC100AA8E1B /* SignUpView.swift */; };
+		C797B8692B0D4DC200AA8E1B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B85E2B0D4DC100AA8E1B /* SignUpView.swift */; };
+		C797B86A2B0D4DC200AA8E1B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B85E2B0D4DC100AA8E1B /* SignUpView.swift */; };
+		C797B86C2B0D4EE300AA8E1B /* WalletyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B86B2B0D4EE300AA8E1B /* WalletyApp.swift */; };
+		C797B86D2B0D4EE300AA8E1B /* WalletyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B86B2B0D4EE300AA8E1B /* WalletyApp.swift */; };
+		C797B86E2B0D4EE300AA8E1B /* WalletyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B86B2B0D4EE300AA8E1B /* WalletyApp.swift */; };
+		C797B8702B0D4F0300AA8E1B /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B86F2B0D4F0300AA8E1B /* CardStack.swift */; };
+		C797B8712B0D4F0300AA8E1B /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B86F2B0D4F0300AA8E1B /* CardStack.swift */; };
+		C797B8722B0D4F0300AA8E1B /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B86F2B0D4F0300AA8E1B /* CardStack.swift */; };
+		C797B87D2B0D523D00AA8E1B /* WalletyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B87B2B0D523D00AA8E1B /* WalletyUITestsLaunchTests.swift */; };
+		C797B87E2B0D523D00AA8E1B /* WalletyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B87B2B0D523D00AA8E1B /* WalletyUITestsLaunchTests.swift */; };
+		C797B87F2B0D523D00AA8E1B /* WalletyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B87B2B0D523D00AA8E1B /* WalletyUITestsLaunchTests.swift */; };
+		C797B8802B0D523D00AA8E1B /* WalletyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B87C2B0D523D00AA8E1B /* WalletyUITests.swift */; };
+		C797B8812B0D523D00AA8E1B /* WalletyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B87C2B0D523D00AA8E1B /* WalletyUITests.swift */; };
+		C797B8822B0D523D00AA8E1B /* WalletyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B87C2B0D523D00AA8E1B /* WalletyUITests.swift */; };
+		C797B8842B0D524300AA8E1B /* WalletyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8832B0D524300AA8E1B /* WalletyTests.swift */; };
+		C797B8852B0D524300AA8E1B /* WalletyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8832B0D524300AA8E1B /* WalletyTests.swift */; };
+		C797B8862B0D524300AA8E1B /* WalletyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797B8832B0D524300AA8E1B /* WalletyTests.swift */; };
 		C7E512162AEB1A4D00140B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E512152AEB1A4D00140B1E /* Assets.xcassets */; };
 		C7E512192AEB1A4D00140B1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E512182AEB1A4D00140B1E /* Preview Assets.xcassets */; };
-		C7E512222AEB2F8300140B1E /* ChangeBalance.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E512212AEB2F8300140B1E /* ChangeBalance.png */; };
-		C7E5122C2AEB2FAE00140B1E /* LockScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E512242AEB2FAD00140B1E /* LockScreen.png */; };
-		C7E5122D2AEB2FAE00140B1E /* SettingsScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E512252AEB2FAD00140B1E /* SettingsScreen.png */; };
-		C7E5122E2AEB2FAE00140B1E /* LockScreen-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E512262AEB2FAD00140B1E /* LockScreen-2.png */; };
-		C7E5122F2AEB2FAE00140B1E /* DiagramScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E512272AEB2FAD00140B1E /* DiagramScreen.png */; };
-		C7E512302AEB2FAE00140B1E /* CategoriesScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E512282AEB2FAD00140B1E /* CategoriesScreen.png */; };
-		C7E512312AEB2FAE00140B1E /* HomeScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E512292AEB2FAE00140B1E /* HomeScreen.png */; };
-		C7E512322AEB2FAE00140B1E /* HomeScreen-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7E5122A2AEB2FAE00140B1E /* HomeScreen-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,39 +182,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C774539D2AEBEE2C0095EF4B /* LockScreen-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockScreen-1.png"; sourceTree = "<group>"; };
 		C78DD4592AEEC4CA00DE58B8 /* WalletyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C78DD45B2AEEC4CB00DE58B8 /* WalletyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletyUITests.swift; sourceTree = "<group>"; };
-		C78DD45D2AEEC4CB00DE58B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C78DD4672AEEC4EB00DE58B8 /* WalletyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C78DD4692AEEC4EB00DE58B8 /* WalletyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletyTests.swift; sourceTree = "<group>"; };
-		C78DD46B2AEEC4EB00DE58B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7B00C3A2B07ED8F0061542F /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
-		C7B00C3E2B07EE370061542F /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
-		C7B00C402B07F0C20061542F /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
-		C7B00C442B07F7420061542F /* BalooThambi2-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooThambi2-Bold.ttf"; sourceTree = "<group>"; };
-		C7B00C462B07F7850061542F /* BalooThambi2-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooThambi2-Medium.ttf"; sourceTree = "<group>"; };
-		C7B00C472B07F7850061542F /* BalooThambi2-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooThambi2-Regular.ttf"; sourceTree = "<group>"; };
-		C7B00C482B07F7850061542F /* BalooThambi2-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooThambi2-SemiBold.ttf"; sourceTree = "<group>"; };
-		C7B00C492B07F7850061542F /* BalooThambi2-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooThambi2-ExtraBold.ttf"; sourceTree = "<group>"; };
-		C7B00C4E2B07FA2C0061542F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		C7B00C502B07FA490061542F /* AddCardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardScreen.swift; sourceTree = "<group>"; };
-		C7B00C542B07FB3E0061542F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		C7B00C582B07FB630061542F /* ManageCardsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCardsScreen.swift; sourceTree = "<group>"; };
+		C797B7AB2B0D4B1E00AA8E1B /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		C797B7AC2B0D4B1E00AA8E1B /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		C797B7AD2B0D4B1E00AA8E1B /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		C797B7AE2B0D4B1E00AA8E1B /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		C797B7BB2B0D4B7900AA8E1B /* SubscriptionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
+		C797B7BC2B0D4B7900AA8E1B /* BudgetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetModel.swift; sourceTree = "<group>"; };
+		C797B7BD2B0D4B7900AA8E1B /* CreditCardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardModel.swift; sourceTree = "<group>"; };
+		C797B7BE2B0D4B7900AA8E1B /* ArcModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcModel.swift; sourceTree = "<group>"; };
+		C797B7CB2B0D4BF800AA8E1B /* InfiniteWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteWeekView.swift; sourceTree = "<group>"; };
+		C797B7CF2B0D4C0200AA8E1B /* WeekHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekHeaderView.swift; sourceTree = "<group>"; };
+		C797B7D02B0D4C0200AA8E1B /* WeeksTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeksTabView.swift; sourceTree = "<group>"; };
+		C797B7D12B0D4C0200AA8E1B /* WeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		C797B7DB2B0D4C1200AA8E1B /* CornerRadiusStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadiusStyle.swift; sourceTree = "<group>"; };
+		C797B7DF2B0D4C1B00AA8E1B /* CornerRadiusShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadiusShape.swift; sourceTree = "<group>"; };
+		C797B7E32B0D4C2300AA8E1B /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		C797B7E42B0D4C2300AA8E1B /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		C797B7E52B0D4C2300AA8E1B /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		C797B7EF2B0D4C3100AA8E1B /* TimeDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeDirection.swift; sourceTree = "<group>"; };
+		C797B7F32B0D4C9D00AA8E1B /* UIStateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStateModel.swift; sourceTree = "<group>"; };
+		C797B7F72B0D4CC300AA8E1B /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		C797B7F82B0D4CC300AA8E1B /* BudgetRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetRow.swift; sourceTree = "<group>"; };
+		C797B7F92B0D4CC300AA8E1B /* SubscriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionCell.swift; sourceTree = "<group>"; };
+		C797B7FA2B0D4CC300AA8E1B /* IconItemSwitchRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconItemSwitchRow.swift; sourceTree = "<group>"; };
+		C797B7FB2B0D4CC300AA8E1B /* SegmentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentButton.swift; sourceTree = "<group>"; };
+		C797B7FC2B0D4CC300AA8E1B /* SubScriptionHomeRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubScriptionHomeRow.swift; sourceTree = "<group>"; };
+		C797B7FD2B0D4CC300AA8E1B /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		C797B7FE2B0D4CC300AA8E1B /* CarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		C797B7FF2B0D4CC300AA8E1B /* SecondaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		C797B8002B0D4CC300AA8E1B /* StatusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusButton.swift; sourceTree = "<group>"; };
+		C797B8012B0D4CC300AA8E1B /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		C797B8022B0D4CC300AA8E1B /* ArcShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
+		C797B8032B0D4CC300AA8E1B /* ItemRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		C797B8042B0D4CC300AA8E1B /* UpcomingBillRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingBillRow.swift; sourceTree = "<group>"; };
+		C797B8052B0D4CC300AA8E1B /* IconItemRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconItemRow.swift; sourceTree = "<group>"; };
+		C797B83A2B0D4D8A00AA8E1B /* AddSubscruiptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSubscruiptionView.swift; sourceTree = "<group>"; };
+		C797B83E2B0D4D8F00AA8E1B /* BudgetsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetsView.swift; sourceTree = "<group>"; };
+		C797B8422B0D4D9500AA8E1B /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		C797B8462B0D4D9C00AA8E1B /* SubscriptionInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionInfoView.swift; sourceTree = "<group>"; };
+		C797B84A2B0D4DA200AA8E1B /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C797B84F2B0D4DB100AA8E1B /* CardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		C797B8532B0D4DB600AA8E1B /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		C797B8572B0D4DBC00AA8E1B /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C797B85B2B0D4DC100AA8E1B /* SocialSignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialSignupView.swift; sourceTree = "<group>"; };
+		C797B85C2B0D4DC100AA8E1B /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		C797B85D2B0D4DC100AA8E1B /* WelcomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomView.swift; sourceTree = "<group>"; };
+		C797B85E2B0D4DC100AA8E1B /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		C797B86B2B0D4EE300AA8E1B /* WalletyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletyApp.swift; sourceTree = "<group>"; };
+		C797B86F2B0D4F0300AA8E1B /* CardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
+		C797B87A2B0D51AB00AA8E1B /* Wallety-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wallety-Bridging-Header.h"; sourceTree = "<group>"; };
+		C797B87B2B0D523D00AA8E1B /* WalletyUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C797B87C2B0D523D00AA8E1B /* WalletyUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletyUITests.swift; sourceTree = "<group>"; };
+		C797B8832B0D524300AA8E1B /* WalletyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletyTests.swift; sourceTree = "<group>"; };
 		C7E5120E2AEB1A4800140B1E /* Wallety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallety.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7E512112AEB1A4800140B1E /* WalletyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletyApp.swift; sourceTree = "<group>"; };
-		C7E512132AEB1A4800140B1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7E512152AEB1A4D00140B1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7E512182AEB1A4D00140B1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C7E5121A2AEB1A4D00140B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7E512212AEB2F8300140B1E /* ChangeBalance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChangeBalance.png; sourceTree = "<group>"; };
-		C7E512242AEB2FAD00140B1E /* LockScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LockScreen.png; sourceTree = "<group>"; };
-		C7E512252AEB2FAD00140B1E /* SettingsScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsScreen.png; sourceTree = "<group>"; };
-		C7E512262AEB2FAD00140B1E /* LockScreen-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockScreen-2.png"; sourceTree = "<group>"; };
-		C7E512272AEB2FAD00140B1E /* DiagramScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiagramScreen.png; sourceTree = "<group>"; };
-		C7E512282AEB2FAD00140B1E /* CategoriesScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CategoriesScreen.png; sourceTree = "<group>"; };
-		C7E512292AEB2FAE00140B1E /* HomeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreen.png; sourceTree = "<group>"; };
-		C7E5122A2AEB2FAE00140B1E /* HomeScreen-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeScreen-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +270,8 @@
 		C78DD45A2AEEC4CB00DE58B8 /* WalletyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C78DD45B2AEEC4CB00DE58B8 /* WalletyUITests.swift */,
-				C78DD45D2AEEC4CB00DE58B8 /* Info.plist */,
+				C797B87C2B0D523D00AA8E1B /* WalletyUITests.swift */,
+				C797B87B2B0D523D00AA8E1B /* WalletyUITestsLaunchTests.swift */,
 			);
 			path = WalletyUITests;
 			sourceTree = "<group>";
@@ -132,8 +279,7 @@
 		C78DD4682AEEC4EB00DE58B8 /* WalletyTests */ = {
 			isa = PBXGroup;
 			children = (
-				C78DD4692AEEC4EB00DE58B8 /* WalletyTests.swift */,
-				C78DD46B2AEEC4EB00DE58B8 /* Info.plist */,
+				C797B8832B0D524300AA8E1B /* WalletyTests.swift */,
 			);
 			path = WalletyTests;
 			sourceTree = "<group>";
@@ -141,11 +287,10 @@
 		C78DD4712AEEC53500DE58B8 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				C7B00C492B07F7850061542F /* BalooThambi2-ExtraBold.ttf */,
-				C7B00C462B07F7850061542F /* BalooThambi2-Medium.ttf */,
-				C7B00C472B07F7850061542F /* BalooThambi2-Regular.ttf */,
-				C7B00C482B07F7850061542F /* BalooThambi2-SemiBold.ttf */,
-				C7B00C442B07F7420061542F /* BalooThambi2-Bold.ttf */,
+				C797B7AE2B0D4B1E00AA8E1B /* Inter-Bold.ttf */,
+				C797B7AD2B0D4B1E00AA8E1B /* Inter-Medium.ttf */,
+				C797B7AB2B0D4B1E00AA8E1B /* Inter-Regular.ttf */,
+				C797B7AC2B0D4B1E00AA8E1B /* Inter-SemiBold.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -153,6 +298,12 @@
 		C78DD4722AEEC55C00DE58B8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C797B8392B0D4D2B00AA8E1B /* AddSubscription */,
+				C797B8382B0D4D2000AA8E1B /* Budgets */,
+				C797B8372B0D4D1900AA8E1B /* Calendar */,
+				C797B8362B0D4D0500AA8E1B /* SubscriptionInfo */,
+				C797B8342B0D4CED00AA8E1B /* Settings */,
+				C797B8332B0D4CE100AA8E1B /* Card */,
 				C78DD4792AEEC61000DE58B8 /* MainTab */,
 				C78DD4782AEEC60000DE58B8 /* Home */,
 				C78DD4772AEEC5F900DE58B8 /* Login */,
@@ -160,30 +311,35 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		C78DD4732AEEC58100DE58B8 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = ViewModel;
-			sourceTree = "<group>";
-		};
 		C78DD4742AEEC5AD00DE58B8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C797B7BE2B0D4B7900AA8E1B /* ArcModel.swift */,
+				C797B7BC2B0D4B7900AA8E1B /* BudgetModel.swift */,
+				C797B7BD2B0D4B7900AA8E1B /* CreditCardModel.swift */,
+				C797B7BB2B0D4B7900AA8E1B /* SubscriptionModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		C78DD4752AEEC5B400DE58B8 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		C78DD4762AEEC5C300DE58B8 /* UICommon */ = {
 			isa = PBXGroup;
 			children = (
+				C797B8022B0D4CC300AA8E1B /* ArcShape.swift */,
+				C797B7F82B0D4CC300AA8E1B /* BudgetRow.swift */,
+				C797B7FE2B0D4CC300AA8E1B /* CarouselView.swift */,
+				C797B8052B0D4CC300AA8E1B /* IconItemRow.swift */,
+				C797B7FA2B0D4CC300AA8E1B /* IconItemSwitchRow.swift */,
+				C797B8032B0D4CC300AA8E1B /* ItemRow.swift */,
+				C797B7F72B0D4CC300AA8E1B /* PrimaryButton.swift */,
+				C797B8012B0D4CC300AA8E1B /* RoundTextField.swift */,
+				C797B7FF2B0D4CC300AA8E1B /* SecondaryButton.swift */,
+				C797B7FB2B0D4CC300AA8E1B /* SegmentButton.swift */,
+				C797B8002B0D4CC300AA8E1B /* StatusButton.swift */,
+				C797B7F92B0D4CC300AA8E1B /* SubscriptionCell.swift */,
+				C797B7FC2B0D4CC300AA8E1B /* SubScriptionHomeRow.swift */,
+				C797B7FD2B0D4CC300AA8E1B /* UIExtension.swift */,
+				C797B8042B0D4CC300AA8E1B /* UpcomingBillRow.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -191,6 +347,10 @@
 		C78DD4772AEEC5F900DE58B8 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				C797B85C2B0D4DC100AA8E1B /* SignInView.swift */,
+				C797B85E2B0D4DC100AA8E1B /* SignUpView.swift */,
+				C797B85B2B0D4DC100AA8E1B /* SocialSignupView.swift */,
+				C797B85D2B0D4DC100AA8E1B /* WelcomView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -198,6 +358,7 @@
 		C78DD4782AEEC60000DE58B8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C797B8572B0D4DBC00AA8E1B /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -205,14 +366,160 @@
 		C78DD4792AEEC61000DE58B8 /* MainTab */ = {
 			isa = PBXGroup;
 			children = (
+				C797B8532B0D4DB600AA8E1B /* MainTabView.swift */,
 			);
 			path = MainTab;
+			sourceTree = "<group>";
+		};
+		C797B7992B0D48AA00AA8E1B /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C797B7A12B0D4A2400AA8E1B /* InfinityWeekView */,
+				C797B7A02B0D4A1800AA8E1B /* CardStack */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		C797B79A2B0D498B00AA8E1B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C797B7F32B0D4C9D00AA8E1B /* UIStateModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C797B7A02B0D4A1800AA8E1B /* CardStack */ = {
+			isa = PBXGroup;
+			children = (
+				C797B86F2B0D4F0300AA8E1B /* CardStack.swift */,
+			);
+			path = CardStack;
+			sourceTree = "<group>";
+		};
+		C797B7A12B0D4A2400AA8E1B /* InfinityWeekView */ = {
+			isa = PBXGroup;
+			children = (
+				C797B7A52B0D4A6100AA8E1B /* Views */,
+				C797B7A42B0D4A5A00AA8E1B /* Utils */,
+			);
+			path = InfinityWeekView;
+			sourceTree = "<group>";
+		};
+		C797B7A42B0D4A5A00AA8E1B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C797B7AA2B0D4AAE00AA8E1B /* ViewModifier */,
+				C797B7A92B0D4AA600AA8E1B /* Shapes */,
+				C797B7A82B0D4A9A00AA8E1B /* Extensions */,
+				C797B7A72B0D4A9200AA8E1B /* Enums */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C797B7A52B0D4A6100AA8E1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C797B7CB2B0D4BF800AA8E1B /* InfiniteWeekView.swift */,
+				C797B7A62B0D4A7E00AA8E1B /* Week */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C797B7A62B0D4A7E00AA8E1B /* Week */ = {
+			isa = PBXGroup;
+			children = (
+				C797B7CF2B0D4C0200AA8E1B /* WeekHeaderView.swift */,
+				C797B7D02B0D4C0200AA8E1B /* WeeksTabView.swift */,
+				C797B7D12B0D4C0200AA8E1B /* WeekView.swift */,
+			);
+			path = Week;
+			sourceTree = "<group>";
+		};
+		C797B7A72B0D4A9200AA8E1B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C797B7EF2B0D4C3100AA8E1B /* TimeDirection.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C797B7A82B0D4A9A00AA8E1B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C797B7E52B0D4C2300AA8E1B /* Color+Extension.swift */,
+				C797B7E32B0D4C2300AA8E1B /* Date+Extension.swift */,
+				C797B7E42B0D4C2300AA8E1B /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C797B7A92B0D4AA600AA8E1B /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				C797B7DF2B0D4C1B00AA8E1B /* CornerRadiusShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		C797B7AA2B0D4AAE00AA8E1B /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				C797B7DB2B0D4C1200AA8E1B /* CornerRadiusStyle.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		C797B8332B0D4CE100AA8E1B /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				C797B84F2B0D4DB100AA8E1B /* CardsView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		C797B8342B0D4CED00AA8E1B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C797B84A2B0D4DA200AA8E1B /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C797B8362B0D4D0500AA8E1B /* SubscriptionInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C797B8462B0D4D9C00AA8E1B /* SubscriptionInfoView.swift */,
+			);
+			path = SubscriptionInfo;
+			sourceTree = "<group>";
+		};
+		C797B8372B0D4D1900AA8E1B /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				C797B8422B0D4D9500AA8E1B /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		C797B8382B0D4D2000AA8E1B /* Budgets */ = {
+			isa = PBXGroup;
+			children = (
+				C797B83E2B0D4D8F00AA8E1B /* BudgetsView.swift */,
+			);
+			path = Budgets;
+			sourceTree = "<group>";
+		};
+		C797B8392B0D4D2B00AA8E1B /* AddSubscription */ = {
+			isa = PBXGroup;
+			children = (
+				C797B83A2B0D4D8A00AA8E1B /* AddSubscruiptionView.swift */,
+			);
+			path = AddSubscription;
 			sourceTree = "<group>";
 		};
 		C7E512052AEB1A4700140B1E = {
 			isa = PBXGroup;
 			children = (
-				C7E512202AEB2F4700140B1E /* art */,
 				C7E512102AEB1A4800140B1E /* Wallety */,
 				C78DD45A2AEEC4CB00DE58B8 /* WalletyUITests */,
 				C78DD4682AEEC4EB00DE58B8 /* WalletyTests */,
@@ -233,24 +540,17 @@
 		C7E512102AEB1A4800140B1E /* Wallety */ = {
 			isa = PBXGroup;
 			children = (
+				C797B86B2B0D4EE300AA8E1B /* WalletyApp.swift */,
+				C797B79A2B0D498B00AA8E1B /* ViewModel */,
+				C797B7992B0D48AA00AA8E1B /* 3rdParty */,
 				C78DD4762AEEC5C300DE58B8 /* UICommon */,
-				C78DD4752AEEC5B400DE58B8 /* Common */,
 				C78DD4742AEEC5AD00DE58B8 /* Model */,
-				C78DD4732AEEC58100DE58B8 /* ViewModel */,
 				C78DD4722AEEC55C00DE58B8 /* View */,
 				C78DD4712AEEC53500DE58B8 /* Font */,
-				C7E512112AEB1A4800140B1E /* WalletyApp.swift */,
-				C7E512132AEB1A4800140B1E /* ContentView.swift */,
 				C7E512152AEB1A4D00140B1E /* Assets.xcassets */,
 				C7E5121A2AEB1A4D00140B1E /* Info.plist */,
 				C7E512172AEB1A4D00140B1E /* Preview Content */,
-				C7B00C3A2B07ED8F0061542F /* WelcomeScreen.swift */,
-				C7B00C3E2B07EE370061542F /* RegistrationScreen.swift */,
-				C7B00C402B07F0C20061542F /* MainScreen.swift */,
-				C7B00C4E2B07FA2C0061542F /* HomeScreen.swift */,
-				C7B00C502B07FA490061542F /* AddCardScreen.swift */,
-				C7B00C542B07FB3E0061542F /* Card.swift */,
-				C7B00C582B07FB630061542F /* ManageCardsScreen.swift */,
+				C797B87A2B0D51AB00AA8E1B /* Wallety-Bridging-Header.h */,
 			);
 			path = Wallety;
 			sourceTree = "<group>";
@@ -261,22 +561,6 @@
 				C7E512182AEB1A4D00140B1E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C7E512202AEB2F4700140B1E /* art */ = {
-			isa = PBXGroup;
-			children = (
-				C7E512282AEB2FAD00140B1E /* CategoriesScreen.png */,
-				C7E512272AEB2FAD00140B1E /* DiagramScreen.png */,
-				C7E5122A2AEB2FAE00140B1E /* HomeScreen-1.png */,
-				C774539D2AEBEE2C0095EF4B /* LockScreen-1.png */,
-				C7E512292AEB2FAE00140B1E /* HomeScreen.png */,
-				C7E512262AEB2FAD00140B1E /* LockScreen-2.png */,
-				C7E512242AEB2FAD00140B1E /* LockScreen.png */,
-				C7E512252AEB2FAD00140B1E /* SettingsScreen.png */,
-				C7E512212AEB2F8300140B1E /* ChangeBalance.png */,
-			);
-			path = art;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,14 +630,17 @@
 				TargetAttributes = {
 					C78DD4582AEEC4CA00DE58B8 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 						TestTargetID = C7E5120D2AEB1A4800140B1E;
 					};
 					C78DD4662AEEC4EB00DE58B8 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 						TestTargetID = C7E5120D2AEB1A4800140B1E;
 					};
 					C7E5120D2AEB1A4800140B1E = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -382,6 +669,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C797B7B32B0D4B1E00AA8E1B /* Inter-SemiBold.ttf in Resources */,
+				C797B7B02B0D4B1E00AA8E1B /* Inter-Regular.ttf in Resources */,
+				C797B7B92B0D4B1E00AA8E1B /* Inter-Bold.ttf in Resources */,
+				C797B7B62B0D4B1E00AA8E1B /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +680,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C797B7B42B0D4B1E00AA8E1B /* Inter-SemiBold.ttf in Resources */,
+				C797B7B12B0D4B1E00AA8E1B /* Inter-Regular.ttf in Resources */,
+				C797B7BA2B0D4B1E00AA8E1B /* Inter-Bold.ttf in Resources */,
+				C797B7B72B0D4B1E00AA8E1B /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,21 +692,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7E512192AEB1A4D00140B1E /* Preview Assets.xcassets in Resources */,
-				C7B00C452B07F7420061542F /* BalooThambi2-Bold.ttf in Resources */,
-				C7E512302AEB2FAE00140B1E /* CategoriesScreen.png in Resources */,
-				C7E512312AEB2FAE00140B1E /* HomeScreen.png in Resources */,
-				C7E5122F2AEB2FAE00140B1E /* DiagramScreen.png in Resources */,
-				C7B00C4B2B07F7850061542F /* BalooThambi2-Regular.ttf in Resources */,
-				C7E512222AEB2F8300140B1E /* ChangeBalance.png in Resources */,
-				C7E5122D2AEB2FAE00140B1E /* SettingsScreen.png in Resources */,
-				C7B00C4C2B07F7850061542F /* BalooThambi2-SemiBold.ttf in Resources */,
-				C7E5122C2AEB2FAE00140B1E /* LockScreen.png in Resources */,
+				C797B7B52B0D4B1E00AA8E1B /* Inter-Medium.ttf in Resources */,
+				C797B7B22B0D4B1E00AA8E1B /* Inter-SemiBold.ttf in Resources */,
+				C797B7B82B0D4B1E00AA8E1B /* Inter-Bold.ttf in Resources */,
 				C7E512162AEB1A4D00140B1E /* Assets.xcassets in Resources */,
-				C7E512322AEB2FAE00140B1E /* HomeScreen-1.png in Resources */,
-				C7B00C4D2B07F7850061542F /* BalooThambi2-ExtraBold.ttf in Resources */,
-				C774539E2AEBEE2C0095EF4B /* LockScreen-1.png in Resources */,
-				C7E5122E2AEB2FAE00140B1E /* LockScreen-2.png in Resources */,
-				C7B00C4A2B07F7850061542F /* BalooThambi2-Medium.ttf in Resources */,
+				C797B7AF2B0D4B1E00AA8E1B /* Inter-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,10 +707,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7B00C5A2B07FB630061542F /* ManageCardsScreen.swift in Sources */,
-				C78DD45C2AEEC4CB00DE58B8 /* WalletyUITests.swift in Sources */,
-				C7B00C562B07FB3E0061542F /* Card.swift in Sources */,
-				C7B00C522B07FA490061542F /* AddCardScreen.swift in Sources */,
+				C797B8072B0D4CC300AA8E1B /* PrimaryButton.swift in Sources */,
+				C797B7C32B0D4B7900AA8E1B /* BudgetModel.swift in Sources */,
+				C797B80D2B0D4CC300AA8E1B /* SubscriptionCell.swift in Sources */,
+				C797B8132B0D4CC300AA8E1B /* SegmentButton.swift in Sources */,
+				C797B8222B0D4CC400AA8E1B /* StatusButton.swift in Sources */,
+				C797B8102B0D4CC300AA8E1B /* IconItemSwitchRow.swift in Sources */,
+				C797B84C2B0D4DA200AA8E1B /* SettingsView.swift in Sources */,
+				C797B8852B0D524300AA8E1B /* WalletyTests.swift in Sources */,
+				C797B7ED2B0D4C2300AA8E1B /* Color+Extension.swift in Sources */,
+				C797B81F2B0D4CC400AA8E1B /* SecondaryButton.swift in Sources */,
+				C797B7DD2B0D4C1200AA8E1B /* CornerRadiusStyle.swift in Sources */,
+				C797B8482B0D4D9C00AA8E1B /* SubscriptionInfoView.swift in Sources */,
+				C797B8192B0D4CC300AA8E1B /* UIExtension.swift in Sources */,
+				C797B7E72B0D4C2300AA8E1B /* Date+Extension.swift in Sources */,
+				C797B8662B0D4DC200AA8E1B /* WelcomView.swift in Sources */,
+				C797B8592B0D4DBC00AA8E1B /* HomeView.swift in Sources */,
+				C797B8402B0D4D8F00AA8E1B /* BudgetsView.swift in Sources */,
+				C797B8692B0D4DC200AA8E1B /* SignUpView.swift in Sources */,
+				C797B87E2B0D523D00AA8E1B /* WalletyUITestsLaunchTests.swift in Sources */,
+				C797B8282B0D4CC400AA8E1B /* ArcShape.swift in Sources */,
+				C797B7CD2B0D4BF800AA8E1B /* InfiniteWeekView.swift in Sources */,
+				C797B81C2B0D4CC400AA8E1B /* CarouselView.swift in Sources */,
+				C797B8442B0D4D9500AA8E1B /* CalendarView.swift in Sources */,
+				C797B80A2B0D4CC300AA8E1B /* BudgetRow.swift in Sources */,
+				C797B86D2B0D4EE300AA8E1B /* WalletyApp.swift in Sources */,
+				C797B7F52B0D4C9D00AA8E1B /* UIStateModel.swift in Sources */,
+				C797B8552B0D4DB600AA8E1B /* MainTabView.swift in Sources */,
+				C797B7C62B0D4B7900AA8E1B /* CreditCardModel.swift in Sources */,
+				C797B8162B0D4CC300AA8E1B /* SubScriptionHomeRow.swift in Sources */,
+				C797B7C02B0D4B7900AA8E1B /* SubscriptionModel.swift in Sources */,
+				C797B7D62B0D4C0300AA8E1B /* WeeksTabView.swift in Sources */,
+				C797B82E2B0D4CC400AA8E1B /* UpcomingBillRow.swift in Sources */,
+				C797B7D92B0D4C0300AA8E1B /* WeekView.swift in Sources */,
+				C797B7E12B0D4C1B00AA8E1B /* CornerRadiusShape.swift in Sources */,
+				C797B8512B0D4DB100AA8E1B /* CardsView.swift in Sources */,
+				C797B7C92B0D4B7900AA8E1B /* ArcModel.swift in Sources */,
+				C797B8252B0D4CC400AA8E1B /* RoundTextField.swift in Sources */,
+				C797B7EA2B0D4C2300AA8E1B /* View+Extension.swift in Sources */,
+				C797B83C2B0D4D8A00AA8E1B /* AddSubscruiptionView.swift in Sources */,
+				C797B8812B0D523D00AA8E1B /* WalletyUITests.swift in Sources */,
+				C797B8632B0D4DC100AA8E1B /* SignInView.swift in Sources */,
+				C797B8312B0D4CC400AA8E1B /* IconItemRow.swift in Sources */,
+				C797B82B2B0D4CC400AA8E1B /* ItemRow.swift in Sources */,
+				C797B8602B0D4DC100AA8E1B /* SocialSignupView.swift in Sources */,
+				C797B7F12B0D4C3100AA8E1B /* TimeDirection.swift in Sources */,
+				C797B7D32B0D4C0300AA8E1B /* WeekHeaderView.swift in Sources */,
+				C797B8712B0D4F0300AA8E1B /* CardStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +761,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7B00C5B2B07FB630061542F /* ManageCardsScreen.swift in Sources */,
-				C78DD46A2AEEC4EB00DE58B8 /* WalletyTests.swift in Sources */,
-				C7B00C572B07FB3E0061542F /* Card.swift in Sources */,
-				C7B00C532B07FA490061542F /* AddCardScreen.swift in Sources */,
+				C797B8082B0D4CC300AA8E1B /* PrimaryButton.swift in Sources */,
+				C797B7C42B0D4B7900AA8E1B /* BudgetModel.swift in Sources */,
+				C797B80E2B0D4CC300AA8E1B /* SubscriptionCell.swift in Sources */,
+				C797B8142B0D4CC300AA8E1B /* SegmentButton.swift in Sources */,
+				C797B8232B0D4CC400AA8E1B /* StatusButton.swift in Sources */,
+				C797B8112B0D4CC300AA8E1B /* IconItemSwitchRow.swift in Sources */,
+				C797B84D2B0D4DA200AA8E1B /* SettingsView.swift in Sources */,
+				C797B8862B0D524300AA8E1B /* WalletyTests.swift in Sources */,
+				C797B7EE2B0D4C2300AA8E1B /* Color+Extension.swift in Sources */,
+				C797B8202B0D4CC400AA8E1B /* SecondaryButton.swift in Sources */,
+				C797B7DE2B0D4C1200AA8E1B /* CornerRadiusStyle.swift in Sources */,
+				C797B8492B0D4D9C00AA8E1B /* SubscriptionInfoView.swift in Sources */,
+				C797B81A2B0D4CC400AA8E1B /* UIExtension.swift in Sources */,
+				C797B7E82B0D4C2300AA8E1B /* Date+Extension.swift in Sources */,
+				C797B8672B0D4DC200AA8E1B /* WelcomView.swift in Sources */,
+				C797B85A2B0D4DBC00AA8E1B /* HomeView.swift in Sources */,
+				C797B8412B0D4D8F00AA8E1B /* BudgetsView.swift in Sources */,
+				C797B86A2B0D4DC200AA8E1B /* SignUpView.swift in Sources */,
+				C797B87F2B0D523D00AA8E1B /* WalletyUITestsLaunchTests.swift in Sources */,
+				C797B8292B0D4CC400AA8E1B /* ArcShape.swift in Sources */,
+				C797B7CE2B0D4BF800AA8E1B /* InfiniteWeekView.swift in Sources */,
+				C797B81D2B0D4CC400AA8E1B /* CarouselView.swift in Sources */,
+				C797B8452B0D4D9500AA8E1B /* CalendarView.swift in Sources */,
+				C797B80B2B0D4CC300AA8E1B /* BudgetRow.swift in Sources */,
+				C797B86E2B0D4EE300AA8E1B /* WalletyApp.swift in Sources */,
+				C797B7F62B0D4C9D00AA8E1B /* UIStateModel.swift in Sources */,
+				C797B8562B0D4DB600AA8E1B /* MainTabView.swift in Sources */,
+				C797B7C72B0D4B7900AA8E1B /* CreditCardModel.swift in Sources */,
+				C797B8172B0D4CC300AA8E1B /* SubScriptionHomeRow.swift in Sources */,
+				C797B7C12B0D4B7900AA8E1B /* SubscriptionModel.swift in Sources */,
+				C797B7D72B0D4C0300AA8E1B /* WeeksTabView.swift in Sources */,
+				C797B82F2B0D4CC400AA8E1B /* UpcomingBillRow.swift in Sources */,
+				C797B7DA2B0D4C0300AA8E1B /* WeekView.swift in Sources */,
+				C797B7E22B0D4C1B00AA8E1B /* CornerRadiusShape.swift in Sources */,
+				C797B8522B0D4DB100AA8E1B /* CardsView.swift in Sources */,
+				C797B7CA2B0D4B7900AA8E1B /* ArcModel.swift in Sources */,
+				C797B8262B0D4CC400AA8E1B /* RoundTextField.swift in Sources */,
+				C797B7EB2B0D4C2300AA8E1B /* View+Extension.swift in Sources */,
+				C797B83D2B0D4D8A00AA8E1B /* AddSubscruiptionView.swift in Sources */,
+				C797B8822B0D523D00AA8E1B /* WalletyUITests.swift in Sources */,
+				C797B8642B0D4DC100AA8E1B /* SignInView.swift in Sources */,
+				C797B8322B0D4CC400AA8E1B /* IconItemRow.swift in Sources */,
+				C797B82C2B0D4CC400AA8E1B /* ItemRow.swift in Sources */,
+				C797B8612B0D4DC100AA8E1B /* SocialSignupView.swift in Sources */,
+				C797B7F22B0D4C3100AA8E1B /* TimeDirection.swift in Sources */,
+				C797B7D42B0D4C0300AA8E1B /* WeekHeaderView.swift in Sources */,
+				C797B8722B0D4F0300AA8E1B /* CardStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,15 +815,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7B00C3B2B07ED8F0061542F /* WelcomeScreen.swift in Sources */,
-				C7B00C592B07FB630061542F /* ManageCardsScreen.swift in Sources */,
-				C7E512142AEB1A4800140B1E /* ContentView.swift in Sources */,
-				C7B00C4F2B07FA2D0061542F /* HomeScreen.swift in Sources */,
-				C7B00C512B07FA490061542F /* AddCardScreen.swift in Sources */,
-				C7B00C412B07F0C30061542F /* MainScreen.swift in Sources */,
-				C7B00C3F2B07EE370061542F /* RegistrationScreen.swift in Sources */,
-				C7E512122AEB1A4800140B1E /* WalletyApp.swift in Sources */,
-				C7B00C552B07FB3E0061542F /* Card.swift in Sources */,
+				C797B7D22B0D4C0300AA8E1B /* WeekHeaderView.swift in Sources */,
+				C797B8502B0D4DB100AA8E1B /* CardsView.swift in Sources */,
+				C797B7EC2B0D4C2300AA8E1B /* Color+Extension.swift in Sources */,
+				C797B7F02B0D4C3100AA8E1B /* TimeDirection.swift in Sources */,
+				C797B8122B0D4CC300AA8E1B /* SegmentButton.swift in Sources */,
+				C797B8542B0D4DB600AA8E1B /* MainTabView.swift in Sources */,
+				C797B7CC2B0D4BF800AA8E1B /* InfiniteWeekView.swift in Sources */,
+				C797B8842B0D524300AA8E1B /* WalletyTests.swift in Sources */,
+				C797B80F2B0D4CC300AA8E1B /* IconItemSwitchRow.swift in Sources */,
+				C797B8182B0D4CC300AA8E1B /* UIExtension.swift in Sources */,
+				C797B7C22B0D4B7900AA8E1B /* BudgetModel.swift in Sources */,
+				C797B86C2B0D4EE300AA8E1B /* WalletyApp.swift in Sources */,
+				C797B8272B0D4CC400AA8E1B /* ArcShape.swift in Sources */,
+				C797B7C82B0D4B7900AA8E1B /* ArcModel.swift in Sources */,
+				C797B8472B0D4D9C00AA8E1B /* SubscriptionInfoView.swift in Sources */,
+				C797B8622B0D4DC100AA8E1B /* SignInView.swift in Sources */,
+				C797B85F2B0D4DC100AA8E1B /* SocialSignupView.swift in Sources */,
+				C797B83F2B0D4D8F00AA8E1B /* BudgetsView.swift in Sources */,
+				C797B87D2B0D523D00AA8E1B /* WalletyUITestsLaunchTests.swift in Sources */,
+				C797B8152B0D4CC300AA8E1B /* SubScriptionHomeRow.swift in Sources */,
+				C797B8702B0D4F0300AA8E1B /* CardStack.swift in Sources */,
+				C797B8582B0D4DBC00AA8E1B /* HomeView.swift in Sources */,
+				C797B8302B0D4CC400AA8E1B /* IconItemRow.swift in Sources */,
+				C797B81E2B0D4CC400AA8E1B /* SecondaryButton.swift in Sources */,
+				C797B7DC2B0D4C1200AA8E1B /* CornerRadiusStyle.swift in Sources */,
+				C797B8062B0D4CC300AA8E1B /* PrimaryButton.swift in Sources */,
+				C797B7E62B0D4C2300AA8E1B /* Date+Extension.swift in Sources */,
+				C797B82A2B0D4CC400AA8E1B /* ItemRow.swift in Sources */,
+				C797B7BF2B0D4B7900AA8E1B /* SubscriptionModel.swift in Sources */,
+				C797B7C52B0D4B7900AA8E1B /* CreditCardModel.swift in Sources */,
+				C797B84B2B0D4DA200AA8E1B /* SettingsView.swift in Sources */,
+				C797B8432B0D4D9500AA8E1B /* CalendarView.swift in Sources */,
+				C797B83B2B0D4D8A00AA8E1B /* AddSubscruiptionView.swift in Sources */,
+				C797B8242B0D4CC400AA8E1B /* RoundTextField.swift in Sources */,
+				C797B7D82B0D4C0300AA8E1B /* WeekView.swift in Sources */,
+				C797B8682B0D4DC200AA8E1B /* SignUpView.swift in Sources */,
+				C797B7E02B0D4C1B00AA8E1B /* CornerRadiusShape.swift in Sources */,
+				C797B80C2B0D4CC300AA8E1B /* SubscriptionCell.swift in Sources */,
+				C797B8092B0D4CC300AA8E1B /* BudgetRow.swift in Sources */,
+				C797B8802B0D523D00AA8E1B /* WalletyUITests.swift in Sources */,
+				C797B7E92B0D4C2300AA8E1B /* View+Extension.swift in Sources */,
+				C797B8652B0D4DC200AA8E1B /* WelcomView.swift in Sources */,
+				C797B7F42B0D4C9D00AA8E1B /* UIStateModel.swift in Sources */,
+				C797B82D2B0D4CC400AA8E1B /* UpcomingBillRow.swift in Sources */,
+				C797B7D52B0D4C0300AA8E1B /* WeeksTabView.swift in Sources */,
+				C797B81B2B0D4CC400AA8E1B /* CarouselView.swift in Sources */,
+				C797B8212B0D4CC400AA8E1B /* StatusButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +884,8 @@
 		C78DD4602AEEC4CC00DE58B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TL9P273R5U;
 				INFOPLIST_FILE = WalletyUITests/Info.plist;
@@ -485,6 +896,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PiotrSharai.WalletyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wallety/WalletyUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Wallety;
@@ -494,6 +907,8 @@
 		C78DD4612AEEC4CC00DE58B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TL9P273R5U;
 				INFOPLIST_FILE = WalletyUITests/Info.plist;
@@ -504,6 +919,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PiotrSharai.WalletyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wallety/WalletyUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Wallety;
@@ -513,7 +929,9 @@
 		C78DD46F2AEEC4EB00DE58B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TL9P273R5U;
 				INFOPLIST_FILE = WalletyTests/Info.plist;
@@ -524,6 +942,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PiotrSharai.WalletyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wallety/WalletyTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallety.app/Wallety";
@@ -533,7 +953,9 @@
 		C78DD4702AEEC4EB00DE58B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TL9P273R5U;
 				INFOPLIST_FILE = WalletyTests/Info.plist;
@@ -544,6 +966,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PiotrSharai.WalletyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wallety/WalletyTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallety.app/Wallety";
@@ -671,6 +1094,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Wallety/Preview Content\"";
 				DEVELOPMENT_TEAM = TL9P273R5U;
@@ -683,6 +1107,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PiotrSharai.Wallety;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wallety/Wallety-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -693,6 +1119,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Wallety/Preview Content\"";
 				DEVELOPMENT_TEAM = TL9P273R5U;
@@ -705,6 +1132,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PiotrSharai.Wallety;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wallety/Wallety-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

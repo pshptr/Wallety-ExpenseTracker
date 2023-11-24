@@ -1,17 +1,22 @@
 //
-//  WalletyApp.swift
-//  Wallety
+//  TrackizerApp.swift
+//  Trackizer
 //
-//  Created by Petia on 27.10.23.
+//  Created by CodeForAny on 11/07/23.
 //
 
 import SwiftUI
 
 @main
-struct WalletyApp: App {
+struct TrackizerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           
+            NavigationView {
+                WelcomView()
+            }
+            
+            
         }
     }
 }
