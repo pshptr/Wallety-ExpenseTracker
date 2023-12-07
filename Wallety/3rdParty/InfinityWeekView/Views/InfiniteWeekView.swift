@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import NavigationStack
 
 struct InfiniteWeekView: View {
     @EnvironmentObject var weekStore: WeekStore

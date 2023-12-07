@@ -6,11 +6,27 @@
 //
 
 import SwiftUI
+import Foundation
 
 struct WeekView: View {
     @EnvironmentObject var weekStore: WeekStore
 
-    var week: Week
+//    var week: Week
+    struct Week {
+        var index: Int
+        var dates: [Date]
+        var referenceDate: Date
+        // Другие свойства и методы, если есть
+    }
+
+    // Пример инициализации для предварительного просмотра
+    extension Week {
+        init(index: Int, dates: [Date], referenceDate: Date) {
+            self.index = index
+            self.dates = dates
+            self.referenceDate = referenceDate
+        }
+    }
 
     var body: some View {
         HStack {
