@@ -7,8 +7,8 @@
 import Foundation
 
 // App Globals
-let APP_NAME = "Expenso"
-let APP_LINK = "https://github.com/sameersyd/Expenso"
+let APP_NAME = "Wallety"
+let APP_LINK = "https://github.com/pshptr/Wallety-ExpenseTracker"
 let SHARED_FROM_EXPENSO = """
     Shared from \(APP_NAME) App: \(APP_LINK)
     """
@@ -26,8 +26,8 @@ let UD_EXPENSE_CURRENCY = "expenseCurrency"
 let CURRENCY_LIST = ["₹", "$", "€", "¥", "£", "¢", "₭"]
 
 // Transaction types
-let TRANS_TYPE_INCOME = "income"
-let TRANS_TYPE_EXPENSE = "expense"
+let TRANS_TYPE_PROFIT = "profit"
+let TRANS_TYPE_SPEND = "spend"
 
 // Transaction tags
 let TRANS_TAG_TRANSPORT = "transport"
@@ -38,6 +38,8 @@ let TRANS_TAG_MEDICAL = "medical"
 let TRANS_TAG_SAVINGS = "savings"
 let TRANS_TAG_PERSONAL = "personal"
 let TRANS_TAG_ENTERTAINMENT = "entertainment"
+let TRANS_TAG_GAMBLING = "gambling"
+let TRANS_TAG_CRYPTO = "crypto"
 let TRANS_TAG_OTHERS = "others"
 let TRANS_TAG_UTILITIES = "utilities"
 
@@ -51,6 +53,8 @@ func getTransTagIcon(transTag: String) -> String {
         case TRANS_TAG_SAVINGS: return "trans_type_savings"
         case TRANS_TAG_PERSONAL: return "trans_type_personal"
         case TRANS_TAG_ENTERTAINMENT: return "trans_type_entertainment"
+        case TRANS_TAG_GAMBLING: return "trans_type_gambling"
+        case TRANS_TAG_CRYPTO: return "trans_type_crypto"
         case TRANS_TAG_OTHERS: return "trans_type_others"
         case TRANS_TAG_UTILITIES: return "trans_type_utilities"
         default: return "trans_type_others"
@@ -67,6 +71,8 @@ func getTransTagTitle(transTag: String) -> String {
         case TRANS_TAG_SAVINGS: return "Savings"
         case TRANS_TAG_PERSONAL: return "Personal"
         case TRANS_TAG_ENTERTAINMENT: return "Entertainment"
+        case TRANS_TAG_GAMBLING: return "Gamblimg"
+        case TRANS_TAG_CRYPTO: return "Crypto"
         case TRANS_TAG_OTHERS: return "Others"
         case TRANS_TAG_UTILITIES: return "Utilities"
         default: return "Unknown"

@@ -77,7 +77,7 @@ class ExpenseSettingsViewModel: ObservableObject {
                     let csvModel = ExpenseCSVModel()
                     csvModel.title = i.title ?? ""
                     csvModel.amount = "\(currency)\(i.amount)"
-                    csvModel.transactionType = "\(i.type == TRANS_TYPE_INCOME ? "INCOME" : "EXPENSE")"
+                    csvModel.transactionType = "\(i.type == TRANS_TYPE_PROFIT ? "INCOME" : "EXPENSE")"
                     csvModel.tag = getTransTagTitle(transTag: i.tag ?? "")
                     csvModel.occuredOn = "\(getDateFormatter(date: i.occuredOn, format: "yyyy-mm-dd hh:mm a"))"
                     csvModel.note = i.note ?? ""

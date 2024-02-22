@@ -17,8 +17,8 @@ struct AddExpenseView: View {
     @StateObject var viewModel: AddExpenseViewModel
     
     let typeOptions = [
-        DropdownOption(key: TRANS_TYPE_INCOME, val: "Income"),
-        DropdownOption(key: TRANS_TYPE_EXPENSE, val: "Expense")
+        DropdownOption(key: TRANS_TYPE_PROFIT, val: "Profit"),
+        DropdownOption(key: TRANS_TYPE_SPEND, val: "Spend")
     ]
     
     let tagOptions = [
@@ -30,6 +30,8 @@ struct AddExpenseView: View {
         DropdownOption(key: TRANS_TAG_SAVINGS, val: "Savings"),
         DropdownOption(key: TRANS_TAG_PERSONAL, val: "Personal"),
         DropdownOption(key: TRANS_TAG_ENTERTAINMENT, val: "Entertainment"),
+        DropdownOption(key: TRANS_TAG_GAMBLING, val: "Gambling"),
+        DropdownOption(key: TRANS_TAG_CRYPTO, val: "Crypto"),
         DropdownOption(key: TRANS_TAG_OTHERS, val: "Others"),
         DropdownOption(key: TRANS_TAG_UTILITIES, val: "Utilities")
     ]
@@ -113,36 +115,36 @@ struct AddExpenseView: View {
                                 .background(Color.secondary_color)
                                 .cornerRadius(4)
                             
-                            Button(action: { viewModel.attachImage() }, label: {
-                                HStack {
-                                    Image(systemName: "paperclip")
-                                        .font(.system(size: 18.0, weight: .bold))
-                                        .foregroundColor(Color.text_secondary_color)
-                                        .padding(.leading, 16)
-                                    TextView(text: "Attach an image", type: .button).foregroundColor(Color.text_secondary_color)
-                                    Spacer()
-                                }
-                            })
-                            .frame(height: 50).frame(maxWidth: .infinity)
-                            .background(Color.secondary_color)
-                            .cornerRadius(4)
-                            .actionSheet(isPresented: $showAttachSheet) {
-                                ActionSheet(title: Text("Do you want to remove the attachment?"), buttons: [
-                                    .default(Text("Remove")) { viewModel.removeImage() },
-                                    .cancel()
-                                ])
-                            }
-                            
-                            if let image = viewModel.imageAttached {
-                                Button(action: { showAttachSheet = true }, label: {
-                                    Image(uiImage: image)
-                                        .resizable()
-                                        .scaledToFill()
-                                        .frame(height: 250).frame(maxWidth: .infinity)
-                                        .background(Color.secondary_color)
-                                        .cornerRadius(4)
-                                })
-                            }
+//                            Button(action: { viewModel.attachImage() }, label: {
+//                                HStack {
+//                                    Image(systemName: "paperclip")
+//                                        .font(.system(size: 18.0, weight: .bold))
+//                                        .foregroundColor(Color.text_secondary_color)
+//                                        .padding(.leading, 16)
+//                                    TextView(text: "Attach an image", type: .button).foregroundColor(Color.text_secondary_color)
+//                                    Spacer()
+//                                }
+//                            })
+//                            .frame(height: 50).frame(maxWidth: .infinity)
+//                            .background(Color.secondary_color)
+//                            .cornerRadius(4)
+//                            .actionSheet(isPresented: $showAttachSheet) {
+//                                ActionSheet(title: Text("Do you want to remove the attachment?"), buttons: [
+//                                    .default(Text("Remove")) { viewModel.removeImage() },
+//                                    .cancel()
+//                                ])
+//                            }
+//
+//                            if let image = viewModel.imageAttached {
+//                                Button(action: { showAttachSheet = true }, label: {
+//                                    Image(uiImage: image)
+//                                        .resizable()
+//                                        .scaledToFill()
+//                                        .frame(height: 250).frame(maxWidth: .infinity)
+//                                        .background(Color.secondary_color)
+//                                        .cornerRadius(4)
+//                                })
+//                            }
                             
                             Spacer().frame(height: 150)
                             Spacer()
@@ -180,9 +182,3 @@ struct AddExpenseView: View {
         }
     }
 }
-
-//struct AddExpenseView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        AddExpenseView()
-//    }
-//}
