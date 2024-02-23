@@ -1,6 +1,5 @@
 //
 //  InterFontModifier.swift
-//  Expenso
 //
 //
 

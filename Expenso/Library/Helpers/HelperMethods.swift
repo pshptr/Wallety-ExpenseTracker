@@ -1,6 +1,5 @@
 //
 //  HelperMethods.swift
-//  Expenso
 //
 //
 

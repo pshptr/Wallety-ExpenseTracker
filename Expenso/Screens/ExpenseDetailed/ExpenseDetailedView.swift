@@ -1,6 +1,5 @@
 //
 //  ExpenseDetailedView.swift
-//  Expenso
 //
 //
 
@@ -102,9 +101,3 @@ struct ExpenseDetailedListView: View {
         }
     }
 }
-
-//struct ExpenseDetailedView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ExpenseDetailedView()
-//    }
-//}

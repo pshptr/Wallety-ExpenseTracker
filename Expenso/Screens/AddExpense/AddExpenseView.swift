@@ -1,6 +1,5 @@
 //
 //  AddExpenseView.swift
-//  Expenso
 //
 //
 

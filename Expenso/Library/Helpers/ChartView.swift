@@ -1,6 +1,5 @@
 //
 //  ChartView.swift
-//  Expenso
 //
 //
 

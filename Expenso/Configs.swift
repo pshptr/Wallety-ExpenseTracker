@@ -9,7 +9,7 @@ import Foundation
 // App Globals
 let APP_NAME = "Wallety"
 let APP_LINK = "https://github.com/pshptr/Wallety-ExpenseTracker"
-let SHARED_FROM_EXPENSO = """
+let SHARED_FROM_WALLETY = """
     Shared from \(APP_NAME) App: \(APP_LINK)
     """
 

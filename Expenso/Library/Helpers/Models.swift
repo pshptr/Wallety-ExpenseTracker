@@ -1,6 +1,5 @@
 //
 //  Models.swift
-//  Expenso
 //
 //
 

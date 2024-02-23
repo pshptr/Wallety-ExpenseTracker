@@ -1,6 +1,5 @@
 //
 //  AttachmentHandler.swift
-//  Expenso
 //
 //
 

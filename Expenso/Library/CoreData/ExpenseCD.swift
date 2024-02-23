@@ -1,6 +1,5 @@
 //
 //  ExpenseCD.swift
-//  Expenso
 //
 //
 

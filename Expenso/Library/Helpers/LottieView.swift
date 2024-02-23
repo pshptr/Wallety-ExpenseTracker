@@ -1,6 +1,5 @@
 //
 //  LottieView.swift
-//  Expenso
 //
 //
 

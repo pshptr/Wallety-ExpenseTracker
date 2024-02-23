@@ -1,6 +1,5 @@
 //
 //  AuthenticationViewModel.swift
-//  Expenso
 //
 //
 

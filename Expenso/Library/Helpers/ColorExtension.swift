@@ -1,6 +1,5 @@
 //
 //  ColorExtension.swift
-//  Expenso
 //
 //
 

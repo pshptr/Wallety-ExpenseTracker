@@ -1,6 +1,5 @@
 //
 //  DateExtension.swift
-//  Expenso
 //
 //
 

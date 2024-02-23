@@ -1,6 +1,5 @@
 //
 //  BiometricAuthUtility.swift
-//  Expenso
 //
 //
 

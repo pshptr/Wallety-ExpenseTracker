@@ -1,6 +1,5 @@
 //
 //  TextView.swift
-//  Expenso
 //
 //
 
