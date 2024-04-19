@@ -6,6 +6,7 @@
 import Foundation
 import Combine
 import LocalAuthentication
+//import Firebase
 
 struct BiometericAuthError: LocalizedError {
     
@@ -65,3 +66,28 @@ class BiometricAuthUtlity {
 
 
 }
+
+
+//class BiometricAuthUtlity {
+//
+//    // Остальной код остается неизменным
+//
+//    /// Authenticate the user with Google Sign-In
+//    public func authenticateWithGoogle(completion: @escaping (Result<User, Error>) -> Void) {
+//        let auth = Auth.auth()
+//        let provider = OAuthProvider(providerID: "google.com")
+//        auth.signIn(with: provider) { authResult, error in
+//            if let error = error {
+//                completion(.failure(error))
+//                return
+//            }
+//            guard let user = authResult?.user else {
+//                let authError = NSError(domain: "com.yourapp.auth", code: -1, userInfo: [NSLocalizedDescriptionKey: "User not found"])
+//                completion(.failure(authError))
+//                return
+//            }
+//            completion(.success(user))
+//        }
+//    }
+//}
+

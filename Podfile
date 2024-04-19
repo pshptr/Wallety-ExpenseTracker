@@ -7,5 +7,11 @@ target 'Expenso' do
 
   pod 'lottie-ios'
   pod 'Charts'
+  
+  pod 'GoogleSignIn'
+  
+
 
 end
+
+
