@@ -43,14 +43,12 @@
 		738B1C8425C6764B0067407B /* ExpenseDetailedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738B1C8325C6764B0067407B /* ExpenseDetailedViewModel.swift */; };
 		738B1C8B25C67D880067407B /* ExpenseFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738B1C8A25C67D880067407B /* ExpenseFilterView.swift */; };
 		738B1C9025C680D20067407B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738B1C8F25C680D20067407B /* AboutView.swift */; };
-		739DFF7B25DC1E3C005BD5C8 /* AuthenticateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739DFF7A25DC1E3C005BD5C8 /* AuthenticateView.swift */; };
 		73E688DA25FF32790000462A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E688D925FF32790000462A /* ChartView.swift */; };
 		753CBDD325F36864005762B8 /* BiometricAuthUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753CBDD225F36864005762B8 /* BiometricAuthUtility.swift */; };
-		75C6B48025F37FD20079BCFC /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C6B47F25F37FD20079BCFC /* AuthenticationViewModel.swift */; };
 		C70864252BB6BA1900CE4A5F /* AttachmentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70864242BB6BA1900CE4A5F /* AttachmentHandler.swift */; };
 		C759C45F2BADA33E000CABBE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C759C45E2BADA33E000CABBE /* GoogleService-Info.plist */; };
-		C786EB082BB6F76B00713851 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786EB072BB6F76B00713851 /* RegisterView.swift */; };
-		C786EB0A2BB6F7A500713851 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786EB092BB6F7A500713851 /* LogInView.swift */; };
+		C77E602A2BD954E000D5501F /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77E60282BD954E000D5501F /* AuthenticationViewModel.swift */; };
+		C77E602B2BD954E000D5501F /* AuthenticateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77E60292BD954E000D5501F /* AuthenticateView.swift */; };
 		FF29C9FFAF86E0452686C5D0 /* Pods_Expenso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0E373FB89DD0864398FEE7 /* Pods_Expenso.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,15 +93,13 @@
 		738B1C8325C6764B0067407B /* ExpenseDetailedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDetailedViewModel.swift; sourceTree = "<group>"; };
 		738B1C8A25C67D880067407B /* ExpenseFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseFilterView.swift; sourceTree = "<group>"; };
 		738B1C8F25C680D20067407B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		739DFF7A25DC1E3C005BD5C8 /* AuthenticateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateView.swift; sourceTree = "<group>"; };
 		73E688D925FF32790000462A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		753CBDD225F36864005762B8 /* BiometricAuthUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthUtility.swift; sourceTree = "<group>"; };
-		75C6B47F25F37FD20079BCFC /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		B07E4D1AF457AB52E048A8B5 /* Pods-Expenso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expenso.release.xcconfig"; path = "Target Support Files/Pods-Expenso/Pods-Expenso.release.xcconfig"; sourceTree = "<group>"; };
 		C70864242BB6BA1900CE4A5F /* AttachmentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentHandler.swift; sourceTree = "<group>"; };
 		C759C45E2BADA33E000CABBE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		C786EB072BB6F76B00713851 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
-		C786EB092BB6F7A500713851 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		C77E60282BD954E000D5501F /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		C77E60292BD954E000D5501F /* AuthenticateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,10 +296,8 @@
 		739DFF7925DC1E23005BD5C8 /* Authenticate */ = {
 			isa = PBXGroup;
 			children = (
-				739DFF7A25DC1E3C005BD5C8 /* AuthenticateView.swift */,
-				75C6B47F25F37FD20079BCFC /* AuthenticationViewModel.swift */,
-				C786EB072BB6F76B00713851 /* RegisterView.swift */,
-				C786EB092BB6F7A500713851 /* LogInView.swift */,
+				C77E60292BD954E000D5501F /* AuthenticateView.swift */,
+				C77E60282BD954E000D5501F /* AuthenticationViewModel.swift */,
 			);
 			path = Authenticate;
 			sourceTree = "<group>";
@@ -458,24 +452,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C786EB0A2BB6F7A500713851 /* LogInView.swift in Sources */,
 				738B1C3825C661750067407B /* ExpenseView.swift in Sources */,
 				738B1C8425C6764B0067407B /* ExpenseDetailedViewModel.swift in Sources */,
 				738B1C9025C680D20067407B /* AboutView.swift in Sources */,
 				738B1C4F25C663180067407B /* DateExtension.swift in Sources */,
 				738B1C5225C6632F0067407B /* HelperMethods.swift in Sources */,
 				C70864252BB6BA1900CE4A5F /* AttachmentHandler.swift in Sources */,
+				C77E602A2BD954E000D5501F /* AuthenticationViewModel.swift in Sources */,
 				738B1C2425C65E060067407B /* Expenso.xcdatamodeld in Sources */,
 				738B1C8B25C67D880067407B /* ExpenseFilterView.swift in Sources */,
-				739DFF7B25DC1E3C005BD5C8 /* AuthenticateView.swift in Sources */,
 				738B1C3325C660140067407B /* ExpenseCD.swift in Sources */,
 				738B1C4325C6629D0067407B /* ColorExtension.swift in Sources */,
 				738B1C4025C662890067407B /* InterFontModifier.swift in Sources */,
 				738B1C3C25C662580067407B /* Models.swift in Sources */,
 				753CBDD325F36864005762B8 /* BiometricAuthUtility.swift in Sources */,
 				738B1C7325C674320067407B /* ExpenseSettingsView.swift in Sources */,
-				75C6B48025F37FD20079BCFC /* AuthenticationViewModel.swift in Sources */,
-				C786EB082BB6F76B00713851 /* RegisterView.swift in Sources */,
 				738B1C4C25C663060067407B /* DismissKeyboard.swift in Sources */,
 				738B1C4625C662D90067407B /* TextView.swift in Sources */,
 				738B1C7B25C6752E0067407B /* AddExpenseViewModel.swift in Sources */,
@@ -484,6 +475,7 @@
 				738B1C4925C662F20067407B /* DropdownButton.swift in Sources */,
 				738B1C7025C674120067407B /* ExpenseSettingsViewModel.swift in Sources */,
 				738B1C2F25C65EF70067407B /* Configs.swift in Sources */,
+				C77E602B2BD954E000D5501F /* AuthenticateView.swift in Sources */,
 				73E688DA25FF32790000462A /* ChartView.swift in Sources */,
 				736C721B25CFE8E200720DEA /* LottieView.swift in Sources */,
 				738B1C7725C675200067407B /* AddExpenseView.swift in Sources */,
