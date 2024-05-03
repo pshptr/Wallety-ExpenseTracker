@@ -17,28 +17,28 @@
 ####  Избавление от резких остроугольных форм для более прятного восприятия глазом пользователя.
 Новый дизайн | Старый дизайн
 --- | --- 
-![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/UXimprovements/assets/icon_new.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/UXimprovements/assets/icon_old.png)
+![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/uxImprovements/assets/icon_new.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/uxImprovements/assets/icon_old.png)
 
 <br />
 
 ####  Переопределение позиции кнопки добавления новых транхакций в центр экрана с целью увиличения удобства пользователя, а также улучшением вилимости сумм недавних транзакций. Теперь кнопка "плюс" не закрывает сумму нижней недавней транзакции.
 Новый дизайн | Старый дизайн
 --- | --- 
-![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/UXimprovements/assets/plus_new.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/UXimprovements/assets/plus_old.png)
+![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/uxImprovements/assets/plus_new.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/uxImprovements/assets/plus_old.png)
 
 <br />
 
 ####  Изменение цветов расхода и дохода при их записи в недавних транзакциях. При первой стадии создания дизайна была допущена ошибка, расходы выделялись зелёным цветом, а доходы красным, что противоречит общепринятым стандартам дизайна приложений. Пользователь привык когда отрицательное выделено красными, а положительое зелёным. Ошибка исправлена.
 Новый дизайн | Старый дизайн
 --- | --- 
-![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/UXimprovements/assets/color_new.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/UXimprovements/assets/color_old.png)
+![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/uxImprovements/assets/color_new.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/uxImprovements/assets/color_old.png)
 
 <br />
 
 ####  Скругление остроугольных краёв панели отображения общего баланса кошелька пользователя, а также переопределение позиции знака валюты из левого края в правый край относительно суммы в соответсвии с современными стандартами проеткирования приложений.
 Новый дизайн | Старый дизайн
 --- | --- 
-![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/UXimprovements/assets/balance_new.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/UXimprovements/assets/balance_old.png)
+![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/uxImprovements/assets/balance_new.png) | ![](https://github.com/pshptr/Wallety-ExpenseTracker/blob/main/documentation/uxImprovements/assets/balance_old.png)
 
 <br />
 
