@@ -1,7 +1,6 @@
 //
 //  AddExpenseViewModel.swift
 //
-//
 
 import UIKit
 import CoreData
@@ -22,7 +21,7 @@ class AddExpenseViewModel: ObservableObject {
     @Published var selectedType = TRANS_TYPE_PROFIT
     @Published var selectedTag = TRANS_TAG_TRANSPORT
     
-    @Published var imageUpdated = false // When transaction edit, check if attachment is updated?
+    @Published var imageUpdated = false
     @Published var imageAttached: UIImage? = nil
     
     @Published var alertMsg = String()
@@ -45,14 +44,6 @@ class AddExpenseViewModel: ObservableObject {
         self.tagTitle = getTransTagTitle(transTag: expenseObj?.tag ?? TRANS_TAG_TRANSPORT)
         self.selectedType = expenseObj?.type ?? TRANS_TYPE_PROFIT
         self.selectedTag = expenseObj?.tag ?? TRANS_TAG_TRANSPORT
-//        if let data = expenseObj?.imageAttached {
-//            self.imageAttached = UIImage(data: data)
-//        }
-        
-//        AttachmentHandler.shared.imagePickedBlock = { [weak self] image in
-//            self?.imageUpdated = true
-//            self?.imageAttached = image
-//        }
     }
     
     func getButtText() -> String {
@@ -61,9 +52,6 @@ class AddExpenseViewModel: ObservableObject {
         else { return "\(expenseObj == nil ? "ADD" : "EDIT") TRANSACTION" }
     }
     
-//    func attachImage() { AttachmentHandler.shared.showAttachmentActionSheet() }
-    
-//    func removeImage() { imageAttached = nil }
     
     func saveTransaction(managedObjectContext: NSManagedObjectContext) {
         

@@ -55,7 +55,8 @@ struct ExpenseView: View {
                         Spacer()
                         NavigationLink(destination: NavigationLazyView(AddExpenseView(viewModel: AddExpenseViewModel())),
                                        label: { Image("plus_icon").resizable().frame(width: 32.0, height: 32.0) })
-                        .padding().background(Color.main_color).cornerRadius(35)
+                            .padding().background(Color.main_color).cornerRadius(35).padding(.bottom, 50)
+                        Spacer()
                     }
                 }.padding()
             }
@@ -112,8 +113,8 @@ struct ExpenseMainView: View {
             } else {
                 VStack(spacing: 16) {
                     TextView(text: "TOTAL BALANCE", type: .overline).foregroundColor(Color.init(hex: "828282")).padding(.top, 30)
-                    TextView(text: "\(CURRENCY)\(getTotalBalance())", type: .h5).foregroundColor(Color.text_primary_color).padding(.bottom, 30)
-                }.frame(maxWidth: .infinity).background(Color.secondary_color).cornerRadius(4)
+                    TextView(text: "\(getTotalBalance())\(CURRENCY)", type: .h5).foregroundColor(Color.text_primary_color).padding(.bottom, 30)
+                }.frame(maxWidth: .infinity).background(Color.secondary_color).cornerRadius(24)
                 
                 HStack(spacing: 8) {
                     NavigationLink(destination: NavigationLazyView(ExpenseFilterView(isIncome: true)),
@@ -189,7 +190,7 @@ struct ExpenseModelView: View {
                 Spacer()
             }.padding(.horizontal, 12)
             HStack {
-                TextView(text: "\(CURRENCY)\(getTotalValue())", type: .h5, lineLimit: 1).foregroundColor(Color.text_primary_color)
+                TextView(text: "\(getTotalValue())\(CURRENCY)", type: .h5, lineLimit: 1).foregroundColor(Color.text_primary_color)
                 Spacer()
             }.padding(.horizontal, 12)
         }.padding(.bottom, 12).background(Color.secondary_color).cornerRadius(4)
@@ -215,7 +216,7 @@ struct ExpenseTransView: View {
                     TextView(text: expenseObj.title ?? "", type: .subtitle_1, lineLimit: 1).foregroundColor(Color.text_primary_color)
                     Spacer()
                     TextView(text: "\(expenseObj.type == TRANS_TYPE_PROFIT ? "+" : "-")\(CURRENCY)\(expenseObj.amount)", type: .subtitle_1)
-                        .foregroundColor(expenseObj.type == TRANS_TYPE_SPEND ? Color.main_green : Color.main_red)
+                        .foregroundColor(expenseObj.type == TRANS_TYPE_SPEND ? Color.main_red : Color.main_green)
                 }
                 HStack {
                     TextView(text: getTransTagTitle(transTag: expenseObj.tag ?? ""), type: .body_2).foregroundColor(Color.text_primary_color)
